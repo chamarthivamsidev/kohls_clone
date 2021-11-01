@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+}
+/* banner */
+#banner {
+  background-color: #eeeeee;
+  width: 100%;
+}
+#banner_div {
+  width: 49%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  font-family: "Gotham 7r", Helvetica, Arial, sans-serif;
+}
+.banner_link {
+  color: black;
+  text-decoration: none;
+  font-size: 11px;
+}
+b {
+  font-weight: 800;
+  font-size: 13px;
+}
+span {
+  text-decoration: underline;
+}
+
+/* persistent top bar */
+#fixed_navbar {
+  position: relative;
+  top: 0px;
+  z-index: 999;
+  height: 75px;
+  border: 1px solid gray;
+}
+/* left part of persistent top bar */
+#navbar_left {
+  display: flex;
+  float: left;
+  width: 50%;
+}
+#search {
+  border: 0;
+  width: 80%;
+  font-size: 20px;
+}
+button {
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+form {
+  flex-grow: 1;
+  padding: 15px;
+}
+fieldset {
+  border-radius: 5px;
+}
+#kohls_logo {
+  padding-top: 28px;
+  padding-left: 10px;
+}
+#search:focus {
+  background-color: white;
+}
+/* right part of persistent top bar */
+#navbar_right {
+  display: flex;
+  float: right;
+  width: 22%;
+  border: 1px solid blue;
+  justify-content: space-between;
+}
+#account {
+  height: 72px;
+  width: 25%;
+  border: 1px solid black;
+}
+#cart {
+  height: 72px;
+  width: 25%;
+  border: 1px solid black;
+}
+#check_out {
+  height: 72px;
+  width: 25%;
+  border: 1px solid black;
+}
+.nav_right:hover {
+  background-color: #eeeeee;
+}
