@@ -17,9 +17,57 @@
             border: 1px solid blue;
         }
         
+        .left-side {
+            display: flex;
+        }
+
         .product-container {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
             
         }
+        
+        .product-container > div {
+            width: 30%;
+            height: 200px;
+            border: 1px solid green;
+        }   
+
+        .cart-container {
+            width: 0%;
+            height: 200px;
+            border: 1px solid red;
+        }
+
+        .product1 {
+            padding-left: 10px;
+            padding-top: 10px ;
+        }
+
+        .product1 > p{
+            margin: 0px;
+            
+        }
+
+        .product1 .product-size {
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+
+        .cart-border {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px 13px;
+        }
+
+        .cart-image {
+            background-image: "https://m.media-amazon.com/images/I/4154HhMt46S.jpg";
+        }
+
+        
 
 
     </style>
@@ -27,8 +75,29 @@
 <body>
     <div class="container">
         <div class="left-side">
-            <div class="product-container"></div>
-            <div class="cart-container"></div>
+            <div class="product-container">
+                <div class = product1>
+                    <div class="product-image">
+                        <img width = 100px height = 100px src="https://m.media-amazon.com/images/I/4154HhMt46S.jpg" alt="">
+                    </div>
+                    <p class="product-size">Regular</p>
+                    <p class="price">$149.99</p>
+                </div>
+                <div>b</div>
+                <div>c</div>
+                <div>d</div>
+                <div>e</div>
+
+            </div>
+            <div class="cart-container">
+                <div class="cart-border">
+                    <div class="cart-image">
+                        <img width = 75px height = 75px src="https://m.media-amazon.com/images/I/4154HhMt46S.jpg" alt="">
+                    </div>
+                    <p class="view-cart"></p>
+                </div>
+                <p>1-1 of 1</p>
+            </div>
         </div>
         <div class="right-side"></div>
     </div>
