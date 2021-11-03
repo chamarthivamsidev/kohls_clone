@@ -104,7 +104,7 @@
         
         .order-summary {
             display: grid;
-            grid-template-rows: 10px 10px;
+            grid-template-rows: 8% 8%;
             grid-template-columns: 50%  50%;
             border: indigo;
             width: 60%;
@@ -116,10 +116,18 @@
         }
 
         .order-summary > p:nth-child(1) {
-            
         
         }
 
+        .img-container{
+            width: 100px;
+            height: 100px;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: 100%;
+        }
  
     </style>
 </head>
@@ -129,7 +137,9 @@
             <div class="product-container">
                 <div class = product1>
                     <div class="product-image">
-                        <img width = 100px height = 100px src="https://m.media-amazon.com/images/I/4154HhMt46S.jpg" alt="">
+                        <div class="img-container">
+                        <img src="https://m.media-amazon.com/images/I/4154HhMt46S.jpg" alt="">
+                        </div>
                     </div>
                     <p class="product-size">Regular</p>
                     <p class="price">$149.99</p>
