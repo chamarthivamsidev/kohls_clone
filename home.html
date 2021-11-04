@@ -7,9 +7,11 @@
     <title>
       Kohl's | Shop Clothing, Shoes, Home, Kitchen, Bedding, Toys & More
     </title>
+    <!-------------- page icon --------------->
     <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ---------css stylesheet ------------->
     <link rel="stylesheet" href="./home.css" type="text/css" />
-    <!-- font awesome cdn -->
+    <!----------font awesome cdn ------------->
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -229,10 +231,15 @@
             <input
               type="text"
               placeholder="Enter city and state or ZIP code"
-            /><br />
+              id="store_search"
+            />
+            <button type="submit" id="store_search_btn">
+              <i class="fa fa-search fa-1x"></i>
+            </button>
+            <br />
             <input type="checkbox" />
-            <p style="font-size: 10px; display: inline">
-              Show only Sephora at Kohl's stores
+            <p id="store_check">
+              Show only <span>Sephora at Kohl's</span> stores
             </p>
           </div>
         </div>

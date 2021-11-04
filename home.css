@@ -230,11 +230,32 @@ fieldset {
   display: none;
   position: absolute;
   background-color: white;
-  min-width: 222px;
+  min-width: 300px;
   box-shadow: 0px 2px 3px 1px #949494;
   margin-top: 6%;
   margin-left: -3%;
   border-radius: 5px;
+  padding: 3%;
+  padding-top: 0;
+}
+.store_dropdown_content p:last-child {
+  font-size: 12px;
+}
+#store_search {
+  width: 220px;
+  margin-bottom: 5%;
+}
+#store_check {
+  display: inline;
+}
+#store_check span {
+  text-decoration: none;
+  font-weight: 700;
+}
+#store_search_btn {
+  border: 1px solid gray;
+  font-size: 16px;
+  margin-left: -1.5%;
 }
 .showStoreDrp {
   display: block;
@@ -330,7 +351,6 @@ fieldset {
   width: 92%;
   margin: auto;
   height: 220px;
-  /* border: 1px solid blue; */
   justify-content: space-around;
   text-align: center;
 }
@@ -569,3 +589,4 @@ footer {
 #info a:hover {
   color: #696969;
 }
+
