@@ -1,13 +1,13 @@
-var account = document.getElementById("account");
-account.addEventListener("click", myFunction);
+// var account = document.getElementById("account");
+// account.addEventListener("click", myFunction);
 
-function myFunction() {
-  var dropdown_div = document.createElement("div");
-  dropdown_div.setAttribute("id", "drp_div");
+// function myFunction() {
+//   var dropdown_div = document.createElement("div");
+//   dropdown_div.setAttribute("id", "drp_div");
 
-  var body = document.querySelector("body");
-  body.append(dropdown_div);
-}
+//   var body = document.querySelector("body");
+//   body.append(dropdown_div);
+// }
 
 //sticky nav bar
 window.onscroll = function () {
@@ -72,3 +72,39 @@ document.querySelector("#reward").addEventListener("click", function () {
 document.querySelector("#card").addEventListener("click", function () {
   window.location.href = "#card";
 });
+
+// level of chill slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides((slideIndex += n));
+}
+
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+setInterval(function () {
+  var n = 1;
+  plusSlides(n);
+  n++;
+}, 4000);
