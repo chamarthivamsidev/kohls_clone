@@ -108,3 +108,51 @@ setInterval(function () {
   plusSlides(n);
   n++;
 }, 4000);
+
+/* More for you slider_3 script*/
+var moreSlideIndex = 1;
+moreShowSlides(moreSlideIndex);
+
+function morePlusSlides(n) {
+  moreShowSlides((moreSlideIndex += n));
+}
+function moreShowSlides(n) {
+  var slides = document.getElementsByClassName("moreMySlides");
+  if (n == slides.length) {
+    document.getElementById("more_rightarrow").style.display = "none";
+  } else {
+    document.getElementById("more_rightarrow").style.display = "block";
+  }
+  if (n == 1) {
+    document.getElementById("more_leftarrow").style.display = "none";
+  } else {
+    document.getElementById("more_leftarrow").style.display = "block";
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[moreSlideIndex - 1].style.display = "block";
+}
+
+
+/* Recently viewed slider_4 script */
+var recentlySlideIndex = 1;
+recenltyShowSlides(recentlySlideIndex);
+
+function recentlyPlusSlides(n) {
+  recenltyShowSlides((recentlySlideIndex += n));
+}
+
+function recenltyShowSlides(n) {
+  var slides = document.getElementsByClassName("recentlyMySlides");
+  if (n > slides.length) {
+    recentlySlideIndex = 1;
+  }
+  if (n < 1) {
+    recentlySlideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[recentlySlideIndex - 1].style.display = "block";
+}

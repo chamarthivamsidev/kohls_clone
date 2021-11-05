@@ -436,6 +436,54 @@ fieldset {
   text-align: center;
   margin-top: 5px;
 }
+/* More for you slider_3 */
+#more_title {
+  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+  border-top: 1px solid black;
+}
+#more_parent {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  height: 320px;
+  justify-content: space-around;
+}
+.more_child {
+  width: 95%;
+  height: 100%;
+  display: none;
+}
+.more_child:hover {
+  cursor: pointer;
+}
+.more_child img {
+  width: 100%;
+  height: 100%;
+}
+#more_rightarrow {
+  background-image: url("https://cdn.dynamicyield.com/api/8768845/images/1f76bf5d937e8__arrow.png");
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-top: 8%;
+}
+#more_leftarrow {
+  background-image: url("https://cdn.dynamicyield.com/api/8769401/images/2c565ee7993bd__leftArrow.png");
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  margin-top: 8%;
+}
+#more_leftarrow,
+#more_rightarrow:hover {
+  cursor: pointer;
+}
+
 /* clearance */
 #clearance {
   width: 92%;
@@ -455,6 +503,65 @@ fieldset {
 #absolute_div img {
   width: 100%;
   height: 100%;
+}
+/* Recently viewed */
+#recently {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  height: 350px;
+  border: 1px solid black;
+}
+#recently_title {
+  width: 30%;
+  height: 100%;
+  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+}
+#recently_title p {
+  padding-top: 1%;
+  padding-left: 7%;
+}
+#recently_parent {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 350px;
+  justify-content: space-around;
+  height: 100%;
+}
+.recently_child {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.recently_child:hover {
+  cursor: pointer;
+}
+.recently_child img {
+  width: 100%;
+  height: 100%;
+}
+#recently_rightarrow {
+  background-image: url("./images/recently_right_arrow.svg");
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-top: 8%;
+}
+#recently_leftarrow {
+  background-image: url("./images/recently_left_arrow.svg");
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  margin-top: 8%;
+}
+#recently_leftarrow,
+#recently_rightarrow:hover {
+  cursor: pointer;
 }
 /* get_inspired */
 #get_inspired {
