@@ -701,8 +701,29 @@ footer {
   font-weight: 700;
 }
 #fb:hover {
-  fill: gray;
-  transition: -webkit-transform 150ms ease-in-out;
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+#twitter:hover {
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+#insta:hover {
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+#youtube:hover {
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+}
+#pinterest:hover {
+  -ms-transform: scale(0.8);
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
 }
 #middle {
   width: 1px;
