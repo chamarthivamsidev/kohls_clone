@@ -1,13 +1,13 @@
-// var account = document.getElementById("account");
-// account.addEventListener("click", myFunction);
+document
+  .querySelector("#search_button")
+  .addEventListener("click", searchResult);
 
-// function myFunction() {
-//   var dropdown_div = document.createElement("div");
-//   dropdown_div.setAttribute("id", "drp_div");
-
-//   var body = document.querySelector("body");
-//   body.append(dropdown_div);
-// }
+function searchResult() {
+  searchValue = document.getElementById("search").value;
+  searchValue == ""
+    ? alert("please enter some text in search box")
+    : alert("please provide path");
+}
 
 //sticky nav bar
 window.onscroll = function () {
@@ -56,7 +56,6 @@ function showStore() {
   document
     .querySelector(".store_dropdown_content")
     .classList.toggle("showStoreDrp");
-  console.log("store clicked");
 }
 
 // on click functions for navbar account button
@@ -133,7 +132,6 @@ function moreShowSlides(n) {
   }
   slides[moreSlideIndex - 1].style.display = "block";
 }
-
 
 /* Recently viewed slider_4 script */
 var recentlySlideIndex = 1;

@@ -328,7 +328,6 @@ fieldset {
   margin: auto;
   height: 400px;
   margin-top: 20px;
-  border: 1px solid black;
 }
 #heart img {
   width: 100%;
@@ -337,7 +336,6 @@ fieldset {
 .chill {
   width: 95%;
   margin: 5% auto;
-  border: 1px solid black;
   height: 550px;
   display: flex;
   justify-content: space-between;
@@ -403,9 +401,8 @@ fieldset {
 }
 /* category items */
 #category {
-  border: 1px solid black;
   margin-top: 80px;
-  height: 500px;
+  height: 300px;
 }
 #category > h1 {
   text-align: center;
@@ -444,7 +441,6 @@ fieldset {
   text-align: center;
   color: #000000;
   margin-bottom: 20px;
-  border-top: 1px solid black;
 }
 #more_parent {
   display: flex;
@@ -487,17 +483,17 @@ fieldset {
 /* clearance */
 #clearance {
   width: 92%;
-  margin: 10% 10% 5% 5%;
-  border: 1px solid black;
+  margin: 3% 10% 5% 5%;
   background-image: url("https://media.kohlsimg.com/is/content/kohls/hp2-d-20210902-clearance-bkg");
   height: 600px;
   background-repeat: no-repeat;
+  border: 1px solid white;
 }
 #absolute_div {
   width: 60%;
   height: 300px;
   background-color: red;
-  margin-top: 180px;
+  margin-top: 150px;
   margin-left: -60px;
 }
 #absolute_div img {
@@ -510,7 +506,6 @@ fieldset {
   margin: auto;
   display: flex;
   height: 350px;
-  border: 1px solid black;
 }
 #recently_title {
   width: 30%;
@@ -563,13 +558,58 @@ fieldset {
 #recently_rightarrow:hover {
   cursor: pointer;
 }
+/* holiday */
+#holiday {
+  width: 95%;
+  margin: auto;
+  background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-d-20211018-utility-holiday_bkg01");
+  margin-top: 2%;
+}
+#holiday a {
+  text-decoration: none;
+}
+#holiday_top {
+  width: 90%;
+  margin: auto;
+}
+#holiday_top img {
+  width: 100%;
+}
+#holiday_middle {
+  width: 89%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.holiday_middle_img {
+  width: 23%;
+}
+.holiday_middle_img img {
+  width: 100%;
+  height: 100%;
+}
+#holiday_bottom {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+#holiday_bottom span:first-child {
+  font-size: 27px;
+  text-decoration: none;
+}
+#holiday_bottom span:last-child {
+  font-size: 20px;
+  text-decoration: underline;
+  padding-left: 5px;
+}
 /* get_inspired */
 #get_inspired {
   width: 95%;
   margin: auto;
-  margin-bottom: 60px;
-  margin-top: 20px;
-  border: 1px solid black;
+  margin-bottom: 10px;
+  margin-top: 70px;
 }
 #get_inspired img {
   width: 100%;
@@ -578,7 +618,6 @@ fieldset {
 #community {
   width: 95%;
   margin: auto;
-  border: 1px solid black;
 }
 #community img {
   width: 100%;
@@ -589,7 +628,6 @@ fieldset {
   margin: 6% auto 15%;
   text-align: center;
   font-size: 13px;
-  border: 1px solid black;
 }
 /* scroll to top */
 #scroll {
