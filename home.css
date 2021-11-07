@@ -324,7 +324,7 @@ fieldset {
 }
 /* Explore the gift shop section  */
 #heart {
-  width: 95%;
+  width: 97%;
   margin: auto;
   height: 400px;
   margin-top: 20px;
@@ -332,10 +332,68 @@ fieldset {
 #heart img {
   width: 100%;
 }
+#offer {
+  width: 97%;
+  height: 190px;
+  position: relative;
+  margin: auto;
+}
+#offer_logos {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+#offer_logos li {
+  list-style: none;
+  width: 200px;
+  height: 200px;
+  margin-left: 0%;
+  transition: transform 0.2s;
+}
+#offer_logos li:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+#offer_logos li:last-child {
+  margin-right: 1%;
+}
+#offer_green {
+  background-color: #3c7337;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+  height: 60%;
+}
+.offer_img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 24%;
+  z-index: -1;
+}
+#offer_div {
+  width: 150px;
+  height: 150px;
+}
+#offer_div img {
+  width: 100%;
+  height: 100%;
+}
+@media (min-width: 971px) {
+  #offer_logos {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /* level of chill section */
 .chill {
   width: 95%;
-  margin: 5% auto;
+  margin: 15% auto;
   height: 550px;
   display: flex;
   justify-content: space-between;
@@ -432,6 +490,70 @@ fieldset {
   margin: 0px;
   text-align: center;
   margin-top: 5px;
+}
+/* gift the brands */
+#gift_box {
+  width: 95%;
+  position: relative;
+  margin: auto;
+  height: 235px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#gift_title {
+  width: 100%;
+  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #114e55;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+#gift_logos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 97%;
+  z-index: 2;
+  position: relative;
+}
+#gift_logos li:first-child {
+  margin-left: -2%;
+}
+
+#gift_banner {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#gift_bg {
+  background-color: #3c7337;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+}
+#gift_img img:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+#gift_img_div {
+  width: 150px;
+  height: 150px;
+}
+#gift_img img {
+  width: 100%;
+  height: 100%;
 }
 /* More for you slider_3 */
 #more_title {
