@@ -57,7 +57,7 @@ span {
   width: 80%;
   font-size: 20px;
 }
-button {
+#search_button {
   border: 0;
   background-color: white;
   cursor: pointer;
@@ -322,12 +322,43 @@ fieldset {
 #coupon > a:nth-child(2) {
   margin-left: 8px;
 }
+#feedback {
+  height: 130px;
+  width: 30px;
+  background-color: black;
+  position: sticky;
+  top: 40%;
+  float: right;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+  z-index: 10000;
+  padding: 5 px 14 px 14 px 14 px;
+}
+/* #feedback:hover {
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+} */
+#feedback p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg) scale(1.02);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+}
 /* Explore the gift shop section  */
 #heart {
   width: 97%;
   margin: auto;
   height: 400px;
   margin-top: 20px;
+  margin-bottom: 15%;
 }
 #heart img {
   width: 100%;
@@ -390,10 +421,145 @@ fieldset {
     justify-content: center;
   }
 }
+/* toy box */
+#toy_box {
+  display: flex;
+  width: 97%;
+  height: 630px;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+  margin-top: 25%;
+}
+#toy_box:hover {
+  cursor: pointer;
+}
+#toy_left {
+  background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-d-20211025-toysplit01");
+  background-size: cover;
+  width: 49%;
+}
+#toy_right {
+  background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-d-20211025-toysplit02");
+  background-size: cover;
+  width: 49%;
+}
+#toy_banner {
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 300px;
+  top: 0%;
+  left: 40%;
+  top: 25%;
+}
+#toy_banner img {
+  width: 100%;
+  height: 100%;
+}
+/* gift the brands */
+#gift_box {
+  width: 95%;
+  position: relative;
+  margin: auto;
+  height: 235px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+#gift_title {
+  width: 100%;
+  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  color: #114e55;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+}
+#gift_logos {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 97%;
+  z-index: 2;
+  position: relative;
+}
+#gift_logos li:first-child {
+  margin-left: -2%;
+}
+
+#gift_banner {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+#gift_bg {
+  background-color: #3c7337;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  z-index: -1;
+}
+#gift_img img:hover {
+  -ms-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+#gift_img_div {
+  width: 150px;
+  height: 150px;
+}
+#gift_img img {
+  width: 100%;
+  height: 100%;
+}
+/* adidas offer */
+#adidas_box {
+  display: flex;
+  width: 97%;
+  height: 700px;
+  justify-content: space-between;
+  margin: auto;
+  position: relative;
+}
+#adidas_box:hover {
+  cursor: pointer;
+}
+#adidas_left {
+  background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-d-20211105-adidas_01");
+  background-size: cover;
+  width: 49%;
+}
+#adidas_right {
+  background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-d-20211105-adidas_02");
+  background-size: cover;
+  width: 49%;
+}
+#adidas_banner {
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 250px;
+  top: 0%;
+  left: 40%;
+  top: 30%;
+}
+#adidas_banner img {
+  width: 100%;
+  height: 100%;
+}
 /* level of chill section */
 .chill {
   width: 95%;
-  margin: 15% auto;
+  margin: 8% auto;
   height: 550px;
   display: flex;
   justify-content: space-between;
@@ -490,70 +656,6 @@ fieldset {
   margin: 0px;
   text-align: center;
   margin-top: 5px;
-}
-/* gift the brands */
-#gift_box {
-  width: 95%;
-  position: relative;
-  margin: auto;
-  height: 235px;
-  margin-top: 2%;
-  margin-bottom: 3%;
-}
-#gift_title {
-  width: 100%;
-  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #114e55;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  text-decoration: none;
-}
-#gift_logos {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 97%;
-  z-index: 2;
-  position: relative;
-}
-#gift_logos li:first-child {
-  margin-left: -2%;
-}
-
-#gift_banner {
-  width: 100%;
-  height: auto;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-#gift_bg {
-  background-color: #3c7337;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 50%;
-  z-index: -1;
-}
-#gift_img img:hover {
-  -ms-transform: scale(1.03);
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
-}
-#gift_img_div {
-  width: 150px;
-  height: 150px;
-}
-#gift_img img {
-  width: 100%;
-  height: 100%;
 }
 /* More for you slider_3 */
 #more_title {
