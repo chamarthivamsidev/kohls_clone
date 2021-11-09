@@ -119,6 +119,9 @@ fieldset {
   margin-left: 1.5%;
   font-size: 12px;
 }
+#sign_in_button:hover {
+  cursor: pointer;
+}
 .sub_content {
   width: 200px;
   height: 60px;
@@ -322,36 +325,6 @@ fieldset {
 #coupon > a:nth-child(2) {
   margin-left: 8px;
 }
-#feedback {
-  height: 130px;
-  width: 30px;
-  background-color: black;
-  position: sticky;
-  top: 40%;
-  float: right;
-  border-bottom-left-radius: 5px;
-  border-top-left-radius: 5px;
-  color: white;
-  z-index: 10000;
-  padding: 5 px 14 px 14 px 14 px;
-}
-/* #feedback:hover {
-  cursor: pointer;
-  background-color: white;
-  transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -webkit-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-} */
-#feedback p {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 14px;
-  transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg) scale(1.02);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-}
 /* Explore the gift shop section  */
 #heart {
   width: 97%;
@@ -529,6 +502,7 @@ fieldset {
   justify-content: space-between;
   margin: auto;
   position: relative;
+  margin-top: 20%;
 }
 #adidas_box:hover {
   cursor: pointer;
@@ -555,6 +529,34 @@ fieldset {
 #adidas_banner img {
   width: 100%;
   height: 100%;
+}
+@media screen and (min-width: 500px) and (max-width: 799px) {
+  #adidas_box {
+    flex-direction: column;
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 40%;
+    height: 1200px;
+  }
+  #adidas_left {
+    width: 100%;
+    background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-m-20211105-adidas_01");
+    border: 1px solid blue;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #adidas_right {
+    width: 100%;
+    background-image: url("https://media.kohlsimg.com/is/image/kohls/hp2-m-20211105-adidas_02");
+    border: 1px solid blue;
+    height: 50%;
+    background-size: cover;
+  }
+  #adidas_banner {
+    top: 40%;
+    left: 30%;
+  }
 }
 /* level of chill section */
 .chill {
@@ -626,8 +628,13 @@ fieldset {
 /* category items */
 #category {
   margin-top: 80px;
-  height: 300px;
+  height: 400px;
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
+
 #category > h1 {
   text-align: center;
   font-family: Gotham5r, GothamMedium, Helvetica, Arial, sans-serif;
@@ -636,15 +643,19 @@ fieldset {
 }
 #items {
   display: flex;
-  width: 92%;
+  width: 100%;
   margin: auto;
   height: 220px;
   justify-content: space-around;
   text-align: center;
+  border: 1px solid blueca;
 }
 #sephora {
-  width: 170px;
+  width: 12%;
   height: 220px;
+}
+#sephora img {
+  width: 100%;
 }
 #items a {
   text-decoration: none;
@@ -656,6 +667,52 @@ fieldset {
   margin: 0px;
   text-align: center;
   margin-top: 5px;
+}
+@media screen and (min-width: 500px) and (max-width: 799px) {
+  #category {
+    height: 600px;
+    width: 100%;
+  }
+  #category > h1 {
+    font-size: 30px;
+  }
+  #items {
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  #items p {
+    font-size: 20px;
+  }
+  #sephora {
+    width: 23%;
+    margin-bottom: 10px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 499px) {
+  #category {
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20%;
+  }
+  #category > h1 {
+    font-size: 30px;
+  }
+  #items {
+    flex-wrap: wrap;
+    margin-top: 5px;
+  }
+  #items p {
+    font-size: 15px;
+  }
+  #sephora {
+    width: 49%;
+    margin-bottom: 10px;
+    height: 150px;
+  }
+  #sephora img {
+    height: 90%;
+  }
 }
 /* More for you slider_3 */
 #more_title {
@@ -865,6 +922,10 @@ fieldset {
   width: 100%;
   text-align: center;
   height: 100%;
+  border: 0;
+}
+#scroll button:hover {
+  cursor: pointer;
 }
 #return-to-top p {
   font-size: 14px;
@@ -1045,4 +1106,36 @@ footer {
 }
 #info a:hover {
   color: #696969;
+}
+/* feedback */
+#last p {
+  bottom: 0;
+  -webkit-transform: rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  color: white;
+}
+#last img {
+  /* padding-top: 90%; */
+  width: 12px;
+  height: 12px;
+}
+#last {
+  height: 75px;
+  width: 30px;
+  background-color: black;
+  position: fixed;
+  top: 45%;
+  right: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: white;
+  z-index: 10000;
+  text-align: center;
+  padding-top: 3%;
+}
+#last:hover {
+  cursor: pointer;
 }

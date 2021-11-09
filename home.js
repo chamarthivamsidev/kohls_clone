@@ -72,6 +72,13 @@ document.querySelector("#card").addEventListener("click", function () {
   window.location.href = "#card";
 });
 
+document
+  .querySelector("#sign_in_button")
+  .addEventListener("click", function () {
+    // window.location.href = "./signin.html";
+    alert("Please provide signin page path");
+  });
+
 // level of chill slider
 var slideIndex = 1;
 showSlides(slideIndex);
