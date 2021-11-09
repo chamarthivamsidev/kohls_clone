@@ -5,343 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="./additem.css">
 </head>
 <body>
-<div class="continue-shopping-container" id="header-shopping-cart">
-    <a href="/">
-        <span>
-            <img class="continue-shopping-arrow" src="https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/moreOptionsImages/left@3x.png" alt="" title="">
-            <span class="continue-shopping-text">
-                Continue shopping
-            </span>
-        </span>
-    </a>
-</div>
- 
-<!-- next division -->
-<div class="smart-cart-screen">
-    <div class="smart-cart-screen-block">
-        <div class="left-column-block">
-            <div id="panel1059" class="smartCard-panel"><div class="smartCardErrMsg" style="display:none;">
-        <p class="smartCardErrMsgTxt"></p>
-    </div></div>
-            <div id="panel1060"></div>
-            <div id="panel1061" class="open-offers-panel"><div class="open-offers-block" id="panel1088">
-    <span class="open-offers-img-container">
-        <img class="open-offers-icon-img" src="/cnc/media/images/dgsImages/percent-dotwack@3x.png">
-        <img class="open-offers-icon-img" src="/cnc/media/images/dgsImages/dollar-circle@3x.png">
-    </span>
-    <span class="open-offers-text">Apply coupons</span>
-    <span><img class="open-offers-arrow-img" src="/cnc/media/images/dgsImages/moreOptionsImages/right@3x.png" alt="" title=""></span>
-</div></div>
-            <div id="panel1062" class="message-slot-panel"></div>
-            <div id="panel1063" class="cartItemPanel-hook-position"><div class="tpl-showMoreOptionsList-loader loader-section" style="display: none;">
-    <div class="tpl-showMoreOptionsList-loader-box">
-            <img class="tpl-show-more-loader-icon" src="/cnc/media/images/dgsImages/moreOptionsImages/loading@3x.png">
-            <p class="tpl-show-more-loader-text">Reorganizing <br>your cart.</p>
-    </div>
-</div>
-
-<div class="saveForLaterErrMsg">
-        <p class="saveForLaterErrMsgTxt"></p>
+    <div id="header-container">
+        <div id="kohls-logo">
+            <img src="https://www.kohls.com/cnc/media/41.0.0-900/images/new_checkout_ui/kohls-checkout-logo.png" id="logo-img">
         </div>
+        <div id="search">
+          <div id="search-icon"></div>
+            <input id="search-bar" type="text"  placeholder="What are you looking for today?">
+        </div>
+    </div>
+    
+        <div id="shopping-container">
+            <a href="">
+                <span>
+                    <img src="https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/moreOptionsImages/left@3x.png" id="arrow-img">
+                </span>
+                </a>
 
-<!-- new cart item code started -->
-    
-    
-    
-        <div class="cart-item-panel" id="panel1073">
-            
-                
-                    
-                        <div class="cart-item-panel-item">
-    <div class="product-details-block">
-        <div class="product-left-block">
-            <div class="product-left-block__top">
-                
-                <a href="/product/prd-5098974/sephora-collection-cream-lip-stain-liquid-lipstick.jsp?skuId=29062785"> <img class="product-img-style" src="https://media.kohlsimg.com/is/image/kohls/5098974_Always_Red?wid=180&amp;hei=180&amp;op_sharpen=1"></a>
-                
-                
+                <div class="continue-shopping-text">Continue shopping</div>
             </div>
-            <div class="product-footer-block-price-list">
-                <p class="product-footer-block-price-list-sale-txt red-color">sale</p>
-                <div>
-                    <span class="product-footer-block-price-list-strikethrough" style="">$15.00</span>
-                    <span class="product-footer-block-price-list-sale-price red-color">$10.50</span>
+
+            <div class="cart">
+              <div id="free-shipping-block">
+                  <span id="free-shipping-icon">
+                      <img src="https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/moving-truck.png"  class="free-shipping-icon-img">
+                  </span>
+                  <span id="free-shipping-text">
+                      You are $65.01 from free standerd shipping
+                  </span>
+              </div>
+<div class="offer-pannel">Offers for your cart</div>
+   <div class="check-bttn">
+       <a href="#" class="checkout-bttn">CHECKOUT</a>
+   </div>
+   <div class="footer-arrow">
+       <button >
+           <img src="	https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/chevron-compact-down@2x.png"  class="down-arrow">
+       </button>
+   </div>
+            </div>
+
+            <div class="cart-screen">
+                <div class="cart-screen-block">
+                    <div class="left-col">.
+                        <div id="apply-coupon">
+                            <div id="coupon-block">
+                                <span class="img-container">
+                                    <img src="https://www.kohls.com/cnc/media/images/dgsImages/percent-dotwack@3x.png" class="coupon-img">
+                                    <img src="https://www.kohls.com/cnc/media/images/dgsImages/dollar-circle@3x.png"  class="coupon-img">
+                                </span>
+                                <span class="apply-coupon-text">Apply coupons</span>
+                                <span >
+                                    <img src="https://www.kohls.com/cnc/media/images/dgsImages/moreOptionsImages/right@3x.png"  id="apply-coupon-arrow">
+                                </span>
+                            </div>
+                            <div class="cart-item-block">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat sit rerum reprehenderit velit ut! Eos quibusdam nobis molestias eligendi voluptate architecto in provident inventore assumenda autem voluptatibus ipsam, fugiat quidem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, nihil assumenda praesentium obcaecati minus laboriosam tenetur facere. Deserunt laboriosam reiciendis doloremque suscipit illum provident corrupti, neque numquam maxime! Explicabo, excepturi.
+                            </div>
+                            <div class="ship-pickup">
+                                <span> <img src="https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/moreOptionsImages/clock@3x.png" class="clock"></span>
+                                <span class="ship-pickup-text">
+                                    <p id="head-text">Change how to get it</p>
+                                    <p id="text">Shipping and pickup options.</p>
+                                </span>
+                            </div>
+                            <div class="gift-block">
+                                <span >
+                                    <img src="	https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/giftOptionsImages/gifting@3x.png"  class="gift-block-img">
+                                </span>
+                                <span class="gift-block-text">
+                                 <p class="gift-head"> Gift these items</p>
+                                 <p class="gift-text">We'll hide the price.</p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="right-col">
+                        <div class="cart-block">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam doloremque deserunt, aspernatur ab qui dolores sapiente neque, vel beatae dolorum deleniti doloribus. Labore eum, asperiores numquam ad similique accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur nemo quisquam saepe dolor libero aperiam tempora impedit minima eveniet, pariatur voluptatibus corporis molestias illum voluptatum omnis non placeat nesciunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum sapiente ducimus eveniet. Mollitia, veniam? Minima molestias quae sapiente autem corrupti excepturi, quos, modi exercitationem deserunt, inventore optio culpa consequuntur.
+                        </div>
+
+                        <div class="banner">
+                            <img src="./image/Screenshot (3).png" alt="" srcset="" id="banner-img1">
+                            <img src="./image/Screenshot (5).png" alt="" srcset="" id="banner-img2">
+                        </div>
+
+                        <div class="similar-products">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis numquam molestias velit quam tenetur adipisci odit assumenda quidem nihil, accusantium perspiciatis voluptatum cupiditate, fugiat quos saepe? Exercitationem unde atque ducimus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident magnam illum perferendis veniam suscipit, aspernatur nobis excepturi quo eos minus. Nesciunt suscipit quia tempore at sit debitis voluptate voluptatem aliquam.
+                    </div>
+                
                 </div>
             </div>
-        </div>
-        <div class="product-right-block">
-            
-                <div class="sephora-logo">
-                    <img src="/cnc/media/41.0.0-900/kds-web-core/assets/sephora/tags/small-k.svg" alt="Logo Sephora">
-                </div>
-            
-
-            <div class="product-name">
-                <a href="/product/prd-5098974/sephora-collection-cream-lip-stain-liquid-lipstick.jsp?skuId=29062785">SEPHORA COLLECTION Cream Lip Stain Liquid Lipstick</a>
-            </div>
-            
-                <div class="product-context-msg">
-                    
-                </div>
-            
-            <div class="product-name-space15"></div>
-        </div>
-        <div class="product-props">
-            
-                <div class="product-size-name">Size: <span class="product-size-value">.169 FL OZ</span></div>
-            
-            
-                
-                    
-                        <div class="product-color-name">Color: <span class="product-color-value">Always Red</span></div>
-                    
-                
-            
-        </div>
-    </div>
-
-
-<div class="product-footer-block">
-    <div class="product-footer-gutter"></div>
-    
-        
-            <div class="saveForLater" id="panel1074" data-quantityid="1" data-cartitemid="6656898897610003" data-skuid="29062785" data-prdid="5098974" data-shippingmethod="HARDGOOD" data-storename="">Save for Later</div>
-        
-        <div class="product-delete-icon" data-quantityid="1" data-cartitemid="6656898897610003" data-skuid="29062785" data-prdid="5098974" data-shippingmethod="HARDGOOD" data-storename=""><a href="javascript:void(0);"><img class="out-of-stock-header-icon-img" src="/cnc/media/41.0.0-900/images/dgsImages/trash-icon.png" alt="" title=""></a></div>
-        
-            <div class="product-change-quantity">
-                
-                    <div class="minus-product-disabled">–</div>
-                
-                    <div class="no-of-product"><label data-quantity="1" data-cartitemid="6656898897610003" data-skuid="29062785" data-prdid="5098974">1</label></div>
-                
-                    <div class="add-product" data-quantityid="1" data-cartitemid="6656898897610003" data-skuid="29062785" data-prdid="5098974" data-shippingmethod="HARDGOOD" data-storename="">+</div>
-                
-            </div>
-        
-    
-</div>
-
-</div>
-                        <div class="cart-item-panel-hr"></div>
-                    
-                
-            
-    
-        <!-- Store Detail Start   -->
-            
-            <div class="module-426-store-detail locator-ship">
-                <div class="delivery-icon"><img class="delivery-icon-img" src="/cnc/media/41.0.0-900/images/dgsImages/delivery-truck@3x.png" alt="ship to home" title=""></div>
-                <div class="head">Wed Nov 10 - Tue Nov 16</div>
-                
-            </div>
-            
-            
-        <!-- Store Detail End   -->
-    
-</div>
-
-<!-- new cart item code ended --></div>
-            <div id="panel1064"><div class="kohls-get-it-faster-panel">
-        <div class="get-it-faster-block" id="panel1087">
-            <span class="get-it-faster-block-clock"><img class="get-it-faster-block-img" src="/cnc/media/41.0.0-900/images/dgsImages/moreOptionsImages/clock@3x.png" alt="" title=""></span>
-            <span class="get-it-faster-block-text">
-                    <p class="get-it-faster-head">Change how you get it</p>
-                    <p class="get-it-faster-text">Shipping and pickup options.</p>
-            </span>
-            <span class="get-it-faster-block-chevron"><a href="javascript:void(0);"><img class="get-it-faster-block-img" src="/cnc/media/41.0.0-900/images/dgsImages/moreOptionsImages/right@3x.png" alt="" title=""></a></span>
-        </div>
-    </div></div>
-            <div id="panel1065"></div>
-            <div id="panel1066" class="gift-options-panel"><div class="kohls-gifting-panel">
-    <div class="gift-block">
-        <span class="gift-block-style">
-            <img class="gift-block-img" src="/cnc/media/41.0.0-900/images/dgsImages/giftOptionsImages/gifting@3x.png" alt="" title="">
-        </span>
-            <span class="gift-block-text" id="panel1086">
-                <p class="gift-head">Gift these items</p>
-                <p class="gift-text">We’ll hide the price.</p>
-            </span>
-        </div>
-    </div>
-</div>
-        </div>
-        <div class="screen-gutter"></div>
-        <div class="right-column-block">
-            <div class="cart-block"><div id="panel1067"><div class="cart-block-item">
-        <span class="cart-block-item-name">Items (1)</span>
-        <span class="cart-block-item-value">$10.50</span>
-    </div>
-    <div class="cart-block-item" id="panel1075">
-        <span class="cart-block-item-name cursor-pointer kls-underline">Kohl’s Cash &amp; Offers</span>
-        <span class="cart-block-item-value">-$0.00</span>
-    </div>
-    <div class="cart-block-item" id="panel1076">
-        <span class="cart-block-item-name cursor-pointer kls-underline">Shipping</span>
-        
-            <span class="cart-block-item-value">$8.95</span>
-        
-    </div>
-
-    <div id="shippingModal" style="display:none">
-        </div>
-    <div class="cart-block-item" id="panel1077">
-    <span class="cart-block-item-name  cursor-pointer kls-underline">Estimated Tax, Surcharges &amp; Fees</span>
-        <span class="cart-block-item-value">$1.17</span>
-    </div>
-    <div class="cart-total-item-break"></div>
-    <div class="cart-block-item">
-        <span class="cart-block-item-name cart-total-item-name">Total</span>
-        <span class="cart-block-item-value cart-total-item-value">$20.62</span>
-    </div>
-    
-    
-        <div class="your-savings">You’re saving $4.50!</div>
-    
-    <div id="panel1078">
-    </div></div></div>
-            <div id="panel1068" class="cart-earnings-panel"><!-- Kohls reward section started -->
-
-<div class="earning-section ">
-
-
-
-<!-- Kohls Cash section started -->
-
-<!-- Kohls Cash section Ended -->
-
-<!-- Kohls Reward section started -->
 
 
 
 
-<!-- Old Rewards Detail-->
 
-
-<!-- Sephora Section Start -->
-
-
-
-<!-- New Reward Details Button -->
-
-</div>
-
-<!-- Kohls reward section ended --></div>
-            <div id="panel1069"></div>
-            <div id="panel1070"><div class="kohls-rewards-block">
-        
-            
-                <div class="spendaway_tracker_container">
-                    <div class="spendawayTracker_text_genericVersionDiv">
-                        <span class="spendawayTracker_text_genericVersion">Get <span class="spendawayAmountLoyalty"> $10 Kohl's Cash<sup>®</sup></span><br> for every $50 spent today</span>
-                        <span>
-                            <img class="spendTracker_RewardsImg spendTrackerRewardsImg" src="/cnc/media/41.0.0-900/images/kohlcash.png" alt="Kohls Rewards Image">
-                        </span>
-                    </div>
-                </div>
-            
-        
-        
-    </div></div>
-            <div id="panel1071"><div id="bd_rec_Horizontal1" data-template-type="flatView" class="big-data-base tce-recs-slot"><div class="bd-flat-view-holder    ">
-<div class="bd-flat-view-title" tabindex="0" aria-label="More Must Haves Products strap">More Must Haves<span class="bd-clipped">Products strap
-</span></div>
-<div class="bd-flat-view-product-container item-count-3" data-channel="WebStore" data-page="ShoppingBag" data-placement="Horizontal1" role="list">
-     <div class="bd-flat-view-product-holder" data-product-id="5099529" data-product-title="SEPHORA COLLECTION Retractable Rouge Gel Lip Liner" role="listitem" data-seo-url="/product/prd-5099529/sephora-collection-retractable-rouge-gel-lip-liner.jsp">
-       <a class="bd-flat-view-product-detail-holder" tabindex="0" title="SEPHORA COLLECTION Retractable Rouge Gel Lip Liner" href="https://www.kohls.com/product/prd-5099529/sephora-collection-retractable-rouge-gel-lip-liner.jsp?pfm=bdrecs-WebStore-ShoppingBag-Horizontal1-b607-281&amp;bdrecsId=ede9fb65-dab2-4939-aef3-44a2b6e185f1">
-         <div class="bd-flat-view-product-hover" aria-label="Product SEPHORA COLLECTION Retractable Rouge Gel Lip Liner,">
-             <div class="bd-template-common-loading" style="display: none;">
-               <div class="bd-template-common-loader"></div>
-             </div>
-             <img class="bd-flat-view-product-image" src="https://media.kohlsimg.com/is/image/kohls/5099529_Aubergine?wid=300&amp;hei=300&amp;op_sharpen=1" alt="Product image: SEPHORA COLLECTION Retractable Rouge Gel Lip Liner">
-          <!--  -->
-         </div>
-         <div class="bd-flat-view-product-details ">
-             <div class="bd-flat-view-product-price-main-container">
-                   <div class="">
-                      <div class="bd-flat-view-product-sale-price-container ">
-                          <div class="bd-flat-view-product-sale-price-label" aria-label="Sale">Sale</div>
-                        <div class="bd-flat-view-product-sale-price" aria-label="Price is $9.10.">$9.10</div>
-                      </div>
-                    <div class="bd-flat-view-product-regular-price-container ">
-                      <div class="bd-flat-view-product-regular-price-label" aria-label="Regular">Regular</div>
-                      <div class="bd-flat-view-product-regular-price" aria-label="Price is $13.00.">$13.00</div>
-                    </div>
-                   </div>
-             </div>
-         </div>
-       </a>
-     </div>
-     <div class="bd-flat-view-product-holder" data-product-id="5102214" data-product-title="SEPHORA COLLECTION Retractable Waterproof Eyeliner" role="listitem" data-seo-url="/product/prd-5102214/sephora-collection-retractable-waterproof-eyeliner.jsp">
-       <a class="bd-flat-view-product-detail-holder" tabindex="0" title="SEPHORA COLLECTION Retractable Waterproof Eyeliner" href="https://www.kohls.com/product/prd-5102214/sephora-collection-retractable-waterproof-eyeliner.jsp?pfm=bdrecs-WebStore-ShoppingBag-Horizontal1-b607-281&amp;bdrecsId=ede9fb65-dab2-4939-aef3-44a2b6e185f1">
-         <div class="bd-flat-view-product-hover" aria-label="Product SEPHORA COLLECTION Retractable Waterproof Eyeliner,">
-             <div class="bd-template-common-loading" style="display: none;">
-               <div class="bd-template-common-loader"></div>
-             </div>
-             <img class="bd-flat-view-product-image" src="https://media.kohlsimg.com/is/image/kohls/5102214_Matte_Brown_Black?wid=300&amp;hei=300&amp;op_sharpen=1" alt="Product image: SEPHORA COLLECTION Retractable Waterproof Eyeliner">
-          <!--  -->
-         </div>
-         <div class="bd-flat-view-product-details ">
-             <div class="bd-flat-view-product-price-main-container">
-                   <div class="">
-                      <div class="bd-flat-view-product-sale-price-container ">
-                          <div class="bd-flat-view-product-sale-price-label" aria-label="Sale">Sale</div>
-                        <div class="bd-flat-view-product-sale-price" aria-label="Price is $9.10.">$9.10</div>
-                      </div>
-                    <div class="bd-flat-view-product-regular-price-container ">
-                      <div class="bd-flat-view-product-regular-price-label" aria-label="Regular">Regular</div>
-                      <div class="bd-flat-view-product-regular-price" aria-label="Price is $13.00.">$13.00</div>
-                    </div>
-                   </div>
-             </div>
-         </div>
-       </a>
-     </div>
-     <div class="bd-flat-view-product-holder" data-product-id="5099390" data-product-title="SEPHORA COLLECTION #LIPSTORIES Natural Wonders Lipstick" role="listitem" data-seo-url="/product/prd-5099390/sephora-collection-lipstories-natural-wonders-lipstick.jsp">
-       <a class="bd-flat-view-product-detail-holder" tabindex="0" title="SEPHORA COLLECTION #LIPSTORIES Natural Wonders Lipstick" href="https://www.kohls.com/product/prd-5099390/sephora-collection-lipstories-natural-wonders-lipstick.jsp?pfm=bdrecs-WebStore-ShoppingBag-Horizontal1-b607-281&amp;bdrecsId=ede9fb65-dab2-4939-aef3-44a2b6e185f1">
-         <div class="bd-flat-view-product-hover" aria-label="Product SEPHORA COLLECTION #LIPSTORIES Natural Wonders Lipstick,">
-             <div class="bd-template-common-loading" style="display: none;">
-               <div class="bd-template-common-loader"></div>
-             </div>
-             <img class="bd-flat-view-product-image" src="https://media.kohlsimg.com/is/image/kohls/5099390_Spiked?wid=300&amp;hei=300&amp;op_sharpen=1" alt="Product image: SEPHORA COLLECTION #LIPSTORIES Natural Wonders Lipstick">
-          <!--  -->
-         </div>
-         <div class="bd-flat-view-product-details ">
-             <div class="bd-flat-view-product-price-main-container">
-                   <div class="">
-                      <div class="bd-flat-view-product-sale-price-container ">
-                          <div class="bd-flat-view-product-sale-price-label" aria-label="Sale">Sale</div>
-                        <div class="bd-flat-view-product-sale-price" aria-label="Price is $6.30.">$6.30</div>
-                      </div>
-                    <div class="bd-flat-view-product-regular-price-container ">
-                      <div class="bd-flat-view-product-regular-price-label" aria-label="Regular">Regular</div>
-                      <div class="bd-flat-view-product-regular-price" aria-label="Price is $9.00.">$9.00</div>
-                    </div>
-                   </div>
-             </div>
-         </div>
-       </a>
-     </div>
-</div>
-<!---->
-</div></div></div>
-            <div id="panel1072" class="saveForLater-nonEmpty"><div class="saveForLaterDiv">
-    <div class="saveForLaterPanelErrMsg">
-        <p class="saveForLaterPanelErrMsgTxt"></p>
-    </div>
-    
-<!-- new cart item code started -->
-    
-</div>
-<!-- new cart item code ended -->
-
-</div>
-        </div>
-    </div>
-</div>
-
+   
 </body>
 </html>
