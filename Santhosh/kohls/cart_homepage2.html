@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+     var data = [
+    {
+      name: "SAMSUNG Galaxy F12",
+      size: "regular",
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/a/q/8/galaxy-f12-sm-f127gzgiins-samsung-original-imagftmjw3xqg4yk.jpeg?q=70",
+     
+    },
+    {
+      name: "SAMSUNG Galaxy F42",
+      size: "medium",
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/ku4ezrk0/mobile/v/5/e/galaxy-f42-5g-sm-e426bzahins-samsung-original-imag7anfwxsgumgz.jpeg?q=70",
+     
+    }
+    ]
+
+    localStorage.setItem("totalList", JSON.stringify(data))
+
+    var product = JSON.parse(localStorage.getItem("totalList"));
+    console.log(product)
+</script>
