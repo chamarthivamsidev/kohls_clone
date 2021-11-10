@@ -5,6 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .imgDiv {
+            width: 100px;
+            height: 100px;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
     
@@ -17,7 +28,7 @@
      name: "SAMSUNG Galaxy F12",
      size: "regular",
      image_url:
-       "https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/a/q/8/galaxy-f12-sm-f127gzgiins-samsung-original-imagftmjw3xqg4yk.jpeg?q=70",
+       "https://images-eu.ssl-images-amazon.com/images/I/41733yAnlzL._SX300_SY300_QL70_FMwebp_.jpg",
     
    },
    {
@@ -32,12 +43,36 @@
    localStorage.setItem("totalList", JSON.stringify(data))
 
    var product = JSON.parse(localStorage.getItem("totalList"));
-   console.log(product)
+   displayItem(product)
 
    function displayItem(product) {
-       product.map(function(item){
-           
-       })
+       product.forEach(function(item){
+           displayItems(item.name,item.size,item.image_url)
+          
+       });
+   }
+
+   function displayItems(name, size, image_url) {
+       console.log(name, size, image_url)
+       var h1 = document.createElement("h1")
+       h1.textContent = name;
+       
+       var h2 = document.createElement("h2");
+       h2.textContent = size;
+
+       var imgDiv = document.createElement("div")
+       imgDiv.setAttribute("class", "imgDiv")
+
+       
+       var img1 = document.createElement("img");
+       img1.setAttribute("src", image_url);
+ 
+       var btn = document.createElement("button");
+       btn.textContent = "Add to cart";
+
+       var hr = document.createElement("hr");
+       imgDiv.append(img1)
+       document.querySelector("body").append(h1,h2,imgDiv, btn,hr);
    }
 
 </script>
