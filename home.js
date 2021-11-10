@@ -6,7 +6,7 @@ function searchResult() {
   searchValue = document.getElementById("search").value;
   searchValue == ""
     ? alert("please enter some text in search box")
-    : alert("please provide path");
+    : alert("please provide path to mens page");
 }
 
 //sticky nav bar
@@ -72,11 +72,20 @@ document.querySelector("#card").addEventListener("click", function () {
   window.location.href = "#card";
 });
 
+// redirect to sign in page
 document
   .querySelector("#sign_in_button")
   .addEventListener("click", function () {
     // window.location.href = "./signin.html";
     alert("Please provide signin page path");
+  });
+
+// redirect to signup page
+
+document
+  .getElementById("create_account")
+  .addEventListener("click", function () {
+    alert("Please provide signup page path");
   });
 
 // level of chill slider
