@@ -3,7 +3,7 @@ body{
 }
 #header-container{
     display: flex;
-    width: 100%;
+    width: 101%;
     height: 72px;
      margin: -7px;
      position: sticky;
@@ -46,7 +46,7 @@ body{
 }
 #shopping-container{
     border:  #c1c1c1 solid 1px;
-    width: 100%;
+    width: 101%;
     height: 45px;
     margin-top: 7px;
     display: flex;
