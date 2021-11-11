@@ -966,7 +966,7 @@ footer {
 #connect {
   width: 60%;
   height: 120px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #ccc;
   margin: auto;
   margin-top: 0px;
   display: flex;
@@ -1012,7 +1012,7 @@ footer {
 }
 #middle {
   width: 1px;
-  background-color: gray;
+  background-color: #ccc;
   height: 80px;
   margin: auto 0px;
   margin-left: 20px;
@@ -1056,7 +1056,7 @@ footer {
   width: 60%;
   margin: auto;
   height: 550px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #ccc;
   margin-top: 40px;
   display: flex;
   justify-content: space-around;
@@ -1118,7 +1118,6 @@ footer {
   color: white;
 }
 #last img {
-  /* padding-top: 90%; */
   width: 12px;
   height: 12px;
 }
