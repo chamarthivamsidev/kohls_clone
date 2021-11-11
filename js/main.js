@@ -7,12 +7,7 @@ function hide(){
 }
 
 function hideshow(){
-    // document.getElementById('viewDigitalReceipt').style.display = "block";
-    // if(document.getElementById('hide').style.display = "block"){
-    //     document.getElementById('hide').style.display = "none";
-    // } else{
-    //     document.getElementById('hide').style.display = "block";
-    // }
+   
     if (document.getElementById('viewDigitalReceipt').style.display=="none"){
         document.getElementById('viewDigitalReceipt').style.display="block";
     } else {
