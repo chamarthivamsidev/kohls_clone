@@ -98,7 +98,8 @@
    .sign-up-text{
     line-height: 1.5;
     font-variant: proportional-width;
-    text-decoration: none;   
+    text-decoration: none;  
+    color: black; 
 }
 .join-now-text{
     margin-left: 20px;
