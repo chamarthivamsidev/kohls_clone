@@ -29,8 +29,11 @@ function fixedNavbar() {
 document.querySelector("#return-to-top").addEventListener("click", scrollTop);
 
 function scrollTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
 }
 
 // on click functions for dropdown content
