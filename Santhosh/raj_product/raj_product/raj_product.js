@@ -849,6 +849,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4952262_Dress_Blues_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4952262_Rustic_Berry_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4952262_Mineral_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4952262_Aubrey_Purple?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4952262_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4952262_ALT2?wid=600&hei=600&op_sharpen=1",
   },
   {
     //product46
