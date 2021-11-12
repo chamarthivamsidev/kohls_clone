@@ -553,6 +553,10 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4960026_Black_Destruction_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4960026_Medium_Wash_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4960026_Light_Distruction_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4960026_Light_Wash?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4960026_ALT?wid=600&hei=600&op_sharpen=1",
   },
   {
     //product30
@@ -566,6 +570,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3336971_Dark_Gray_Heather_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3336971_Gray_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3336971_Blue_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3336971_Black?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3336971_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3336971_ALT99?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product31
@@ -579,6 +589,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/2244568_Blackened_Indigo_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/2244568_Classic_Stone_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/2244568_Marine_Blue_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/2244568_Gray_Tint?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/2244568_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/2244568_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product32
@@ -592,6 +608,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3932653_Cherry_Berry_Black_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3932653_Mineral_Black_Cherry_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3932653_Hawk_Gray_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3932653_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3932653_ALT2?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3932653_Mineral_Black_Cherry_ALT?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product33
@@ -603,6 +625,12 @@ var products = [
     stars: "(454)",
     btn1: "https://media.kohlsimg.com/is/image/kohls/3346420_White_Navy_sw?wid=20&hei=20",
     btn2: "https://media.kohlsimg.com/is/image/kohls/3346420_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3346420_White_Navy?wid=600&hei=600&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3346420_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3346420_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product34
@@ -616,6 +644,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4517353_Navy_White_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4517353_Black_White_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4517353_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_Black?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product35
@@ -629,6 +663,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3583146_Charcoal_Heather_White_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3583146_Black_White_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3583146_University_Red_White_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_Black?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4517353_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product36
@@ -642,6 +682,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/5205429_Cargo_Olive_Black_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/5205429_Natural_Dark_Khaki_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/5205429_Dream_Pink_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/5205429_Poppy_Orange?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/5205429_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/5205429_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
 
   {
@@ -656,6 +702,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3233736_Gray_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3233736_Black_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3233736_Tan_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3233736_Gray?wid=600&hei=600&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3233736_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3233736_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
 
   {
@@ -670,6 +722,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4882944_Black_Scarlet_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4882944_Black_White_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4882944_Legend_Ink_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4882944_Legend_Ink?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4882944_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4882944_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product39
@@ -683,6 +741,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3336984_Black_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3336984_Gray_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3336984_Navy_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3336984_Black?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3336984_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3336984_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product40
@@ -694,6 +758,12 @@ var products = [
     stars: "(705)",
     btn1: "https://media.kohlsimg.com/is/image/kohls/3217358_White_Dark_Gray_sw?wid=20&hei=20",
     btn2: "https://media.kohlsimg.com/is/image/kohls/3217358_Black_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3217358_White_Dark_Gray?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3217358_ALT?wid=600&hei=600&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3217358_ALT2?wid=600&hei=600&op_sharpen=1",
   },
   {
     //product41
@@ -707,6 +777,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4952594_Light_Wash_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4952594_Dark_Wash_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4952594_Med_Wash_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4952594_Light_Wash?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4952594_ALT?wid=600&hei=600&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4952594_ALT3?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product42
@@ -715,6 +791,13 @@ var products = [
     price: "Regular $64.99",
     type: "Vans® Atwood DX Men's Shoes",
     stars: "(199)",
+    btn4: "https://media.kohlsimg.com/is/image/kohls/4952594_Med_Wash_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3737517?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3737517_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3737517_ALT2?wid=600&hei=600&op_sharpen=1",
   },
   {
     //product43
@@ -728,6 +811,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/4882714_Black_White_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/4882714_Medium_Gray_Black_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/4882714_Victory_Crimson_White_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/4882714_Bold_Blue_White?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/4882714_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/4882714_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product44
@@ -741,6 +830,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3362906_Gray_Red_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3362906_Black_Gray_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3362906_Blue_Yellow_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3362906_Steel_Gray?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3362906_ALT?wid=600&hei=600&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3362906_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
   {
     //product45
@@ -767,6 +862,13 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/3923240_Black_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/3923240_White_Black_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/3923240_Black_Photon_Dust_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/3923240_Photon_Thunderstorm?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/3923240_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/3923240_ALT2?wid=1200&hei=1200&op_sharpen=1",
+    
   },
   {
     //product47
@@ -780,6 +882,10 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/5018041_Gray_Black_Buff_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/5018041_Blue_Multi_Plaid_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/5018041_Orange_Gray_Plaid_sw?wid=20&hei=20",
+    poster_1:
+    "hhttps://media.kohlsimg.com/is/image/kohls/5018041_Brown_Plaid?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/5018041_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
 
   {
@@ -794,6 +900,12 @@ var products = [
     btn2: "https://media.kohlsimg.com/is/image/kohls/2511789_Gray_Green_sw?wid=20&hei=20",
     btn3: "https://media.kohlsimg.com/is/image/kohls/2511789_Navy_Gray_sw?wid=20&hei=20",
     btn4: "https://media.kohlsimg.com/is/image/kohls/2511789_Gray_Yellow_sw?wid=20&hei=20",
+    poster_1:
+    "https://media.kohlsimg.com/is/image/kohls/2511789_Gray_Orange?wid=1200&hei=1200&op_sharpen=1",
+    poster_2:
+    "https://media.kohlsimg.com/is/image/kohls/2511789_ALT?wid=1200&hei=1200&op_sharpen=1",
+    poster_3:
+    "https://media.kohlsimg.com/is/image/kohls/2511789_ALT2?wid=1200&hei=1200&op_sharpen=1",
   },
 ];
 
