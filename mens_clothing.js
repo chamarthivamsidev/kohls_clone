@@ -381,27 +381,6 @@ function functn21() {
   document.querySelector("#t20").style.backgroundColor = "rgba(255,255,255,.5)";
   document.querySelector("#t20").style.textDecoration = "none";
 }
-
-//      var recentlySlideIndex = 1;
-//   recenltyShowSlides(recentlySlideIndex);
-
-//   function plusSlides(n) {
-//     recenltyShowSlides((recentlySlideIndex += n));
-//   }
-
-//   function recenltyShowSlides(n) {
-//     var slides = document.getElementsByClassName("recentlyMySlides");
-//     if (n > slides.length) {
-//       recentlySlideIndex = 1;
-//     }
-//     if (n < 1) {
-//       recentlySlideIndex = slides.length;
-//     }
-//     for (i = 0; i < slides.length; i++) {
-//       slides[i].style.display = "none";
-//     }
-//     slides[recentlySlideIndex - 1].style.display = "block";
-//   }
 var recentlySlideIndex = 1;
 recenltyShowSlides(recentlySlideIndex);
 
@@ -422,3 +401,24 @@ function recenltyShowSlides(n) {
   }
   slides[recentlySlideIndex - 1].style.display = "block";
 }
+
+//redirecting to checkout
+document.getElementById("go_check").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
+//redirecting to cart
+document.getElementById("go_cart").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});

@@ -170,3 +170,23 @@ if (regUsers.length == 0) {
   var user_name = regUsers[0].firstname;
   document.querySelector("#user_name").innerHTML = `${user_name}`;
 }
+//redirecting to checkout
+document.getElementById("go_check").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
+//redirecting to cart
+document.getElementById("go_cart").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});

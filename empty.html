@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./empty.css" />
 
     <!-------------- page icon --------------->
-    <link rel="icon" href="./image/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 
     <!----------font awesome cdn ------------->
     <link
@@ -49,7 +49,7 @@
         <div class="right-column-block">
           <div class="empty-cart-right-col">
             <div class="start-shopping-btn-block">
-              <a class="start-shopping-btn" href="#">Start Shopping</a>
+              <a class="start-shopping-btn" href="home.html">Start Shopping</a>
             </div>
           </div>
         </div>
@@ -156,7 +156,7 @@
             APP
           </p>
           <div id="code">
-            <img src="./image/qrcode.jpg" alt="" />
+            <img src="./images/qrcode.jpg" alt="" />
           </div>
           <div id="app_info">
             <p>
@@ -266,7 +266,7 @@
   document
     .querySelector(".checkout-header")
     .addEventListener("click", function () {
-      alert("Please provide path to home page");
+      window.location.href = "home.html";
     });
 
   // ===== Scroll to Top ====

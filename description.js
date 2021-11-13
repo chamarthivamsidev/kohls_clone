@@ -344,26 +344,6 @@ function display(product) {
       product[0].color = color;
       localStorage.setItem("MensProduct", JSON.stringify(product));
       localStorage.setItem("cartItems", JSON.stringify(product));
-      //    var flag=false;
-      //    if(cartItems.length==0){
-      //       cartItems.push(product)
-      //       localStorage.setItem("cartItems",JSON.stringify(product))
-      //    }
-      //   else {
-      //     for(var i=0;i<cartItems.length;i++){
-      //      if(cartItems[i].type==product[0].type){
-      //        flag=true;
-      //        break;
-      //      }
-      //     }
-      //     if(flag==true){
-      //       alert("product already added to cart ")
-      //     }
-      //     else{
-      //       cartItems.push(product)
-      //       localStorage.setItem("cartItems",JSON.stringify(product))
-      //     }
-      //   }
     });
 
     addToCartBtn.append(addToCart);
@@ -402,4 +382,24 @@ function recenltyShowSlides(n) {
   }
   slides[recentlySlideIndex - 1].style.display = "block";
 }
-// slider1
+
+//redirecting to checkout
+document.getElementById("go_check").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null || cartItems.length == 0) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
+//redirecting to cart
+document.getElementById("go_cart").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null || cartItems.length == 0) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});

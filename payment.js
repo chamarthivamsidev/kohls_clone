@@ -61,7 +61,8 @@ function display(cartItems) {
 
     var image_name = document.createElement("div");
     image_name.setAttribute("id", "image_name");
-    var quantity = JSON.parse(localStorage.getItem(`counter${index}`));
+    // var quantity = JSON.parse(localStorage.getItem(`counter${index}`));
+    var quantity = item.quantity;
 
     if (item.sale != undefined) {
       image_name.innerHTML = `<p>Regular(${quantity})<br>Sale</p>`;
@@ -140,7 +141,8 @@ var finalPrice = JSON.parse(localStorage.getItem("finalPrice"));
 document.querySelector(".check-bttn").innerHTML = `PLACE OREDR $${finalPrice}`;
 
 //items
-var totalItems = JSON.parse(localStorage.getItem("totalItems"));
+var tlItems = JSON.parse(localStorage.getItem("cartItems"));
+var totalItems = tlItems.length;
 var totalPrice = JSON.parse(localStorage.getItem("total"));
 document.querySelector(
   "#items"
@@ -151,14 +153,16 @@ var total = Math.floor(JSON.parse(localStorage.getItem("finalPrice")));
 document.querySelector("#total").innerHTML = `Total<span>$${total}</span>`;
 
 // user credentials
-var userCred = JSON.parse(localStorage.getItem("userdata"));
+var userCred = JSON.parse(localStorage.getItem("userdata")) || null;
 
 show(userCred);
 function show(userCred) {
-  var name = userCred[0].firstname;
-  var email = userCred[0].emailAddress;
-  document.querySelector(".signed-in-name").innerHTML = `${name}`;
-  document.querySelector(".signed-in-email").innerHTML = `${email}`;
+  if (userCred !== null) {
+    var name = userCred[0].firstname;
+    var email = userCred[0].emailAddress;
+    document.querySelector(".signed-in-name").innerHTML = `${name}`;
+    document.querySelector(".signed-in-email").innerHTML = `${email}`;
+  }
 }
 
 //return to cart
@@ -210,5 +214,12 @@ document.querySelector("#addCard").addEventListener("click", function () {
 });
 
 document.querySelector(".check-bttn").addEventListener("click", function () {
-  window.location.href = "sucess.html";
+  var userdata = JSON.parse(localStorage.getItem("userdata")) || null;
+
+  if (userdata == null) {
+    alert("After login only you can place the order");
+    window.location.href = "signin.html";
+  } else {
+    window.location.href = "sucess.html";
+  }
 });

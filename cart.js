@@ -72,7 +72,8 @@ function display(cartList) {
     a_img.append(img);
 
     var type = document.createElement("h3");
-    type.textContent = item.type;
+    // type.textContent = item.type;
+    type.textContent = "Regular";
     type.style.color = item.text_color;
 
     var price = document.createElement("p");
@@ -88,7 +89,7 @@ function display(cartList) {
     var a_name = document.createElement("a");
     a_name.setAttribute("href", "#");
     a_name.setAttribute("id", "item_name");
-    a_name.textContent = item.name;
+    a_name.textContent = item.type;
 
     var size = document.createElement("p");
     size.setAttribute("id", "item_size");
@@ -265,15 +266,15 @@ function deleteProduct(item, index) {
 //Redirect to home page
 
 document.querySelector("#shop").addEventListener("click", function () {
-  alert("Provide path to home page");
+  window.location.href = "home.html";
 });
 
 document.getElementById("kohls-logo").addEventListener("click", function () {
-  alert("Provide path to home page");
+  window.location.href = "home.html";
 });
 
 document.getElementById("cs").addEventListener("click", function () {
-  alert("Provide path to home page");
+  window.location.href = "home.html";
 });
 
 // ===== Scroll to Top ====
