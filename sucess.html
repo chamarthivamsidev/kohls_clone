@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./sucess.css" />
 
     <!-------------- page icon --------------->
-    <link rel="icon" href="./image/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/favicon.ico" type="image/x-icon" />
 
     <!----------font awesome cdn ------------->
     <link
@@ -26,6 +26,12 @@
       href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css"
       rel="stylesheet"
     />
+    <style>
+      #sucess{
+        width: 80%;
+        margin: auto;
+      }
+    </style>
   </head>
   <body>
     <div class="checkout-header">
@@ -35,7 +41,9 @@
       />
     </div>
 
-    
+    <div id="sucess">
+      <img src="https://assets.materialup.com/uploads/b5181121-c08e-485a-a18f-8bd0b9218d98/preview.jpg" alt="">
+    </div>
     </div>
     <!-- scroll to top -->
     <div id="scroll">
@@ -248,7 +256,7 @@
   document
     .querySelector(".checkout-header")
     .addEventListener("click", function () {
-      alert("Please provide path to home page");
+      window.location.href="home.html";
     });
 
   // ===== Scroll to Top ====

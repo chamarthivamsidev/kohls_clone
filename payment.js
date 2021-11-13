@@ -56,7 +56,7 @@ function display(cartItems) {
     des_left_div.setAttribute("id", "des_left_div");
 
     var img = document.createElement("img");
-    img.setAttribute("src", item.cart_image_url);
+    img.setAttribute("src", item.img_prod);
     img.setAttribute("id", "item_image");
 
     var image_name = document.createElement("div");
@@ -76,7 +76,7 @@ function display(cartItems) {
 
     if (item.sale != undefined) {
       var regularPrice = document.createElement("div");
-      var rp = Math.floor(Number(item.regular) * quantity);
+      var rp = Math.floor(Number(item.price) * quantity);
       regularPrice.innerHTML = `$${rp}`;
       var salePrice = document.createElement("div");
       var sp = Math.floor(Number(item.sale) * quantity);
@@ -85,7 +85,7 @@ function display(cartItems) {
       des_right_div.append(regularPrice, salePrice);
     } else {
       var regularPrice = document.createElement("div");
-      var rp = Math.floor(Number(item.regular) * quantity);
+      var rp = Math.floor(Number(item.price) * quantity);
       regularPrice.innerHTML = `$${rp}`;
       des_right_div.append(regularPrice);
     }
@@ -101,7 +101,7 @@ function display(cartItems) {
     if (item.sale != undefined) {
       var fp = Math.floor(Number(item.sale) * quantity);
     } else {
-      var fp = Math.floor(Number(item.regular) * quantity);
+      var fp = Math.floor(Number(item.price) * quantity);
     }
 
     total_div.innerHTML = `$${fp}`;
@@ -129,7 +129,7 @@ function display(cartItems) {
     var s_image_div = document.querySelector("#s_img");
 
     var s_img = document.createElement("img");
-    s_img.setAttribute("src", item.cart_image_url);
+    s_img.setAttribute("src", item.img_prod);
 
     s_image_div.append(s_img);
   });
@@ -151,12 +151,12 @@ var total = Math.floor(JSON.parse(localStorage.getItem("finalPrice")));
 document.querySelector("#total").innerHTML = `Total<span>$${total}</span>`;
 
 // user credentials
-var userCred = JSON.parse(localStorage.getItem("userCred"));
+var userCred = JSON.parse(localStorage.getItem("userdata"));
 
 show(userCred);
 function show(userCred) {
-  var name = userCred[0].name;
-  var email = userCred[0].email;
+  var name = userCred[0].firstname;
+  var email = userCred[0].emailAddress;
   document.querySelector(".signed-in-name").innerHTML = `${name}`;
   document.querySelector(".signed-in-email").innerHTML = `${email}`;
 }
@@ -167,7 +167,6 @@ document
   .addEventListener("click", function () {
     window.location.href = "./cart.html";
   });
-
 
 //address  validation
 document.querySelector(".add_btn_done").addEventListener("click", function () {
@@ -208,4 +207,8 @@ document.querySelector("#addCard").addEventListener("click", function () {
   } else {
     alert("card added sucessfully");
   }
+});
+
+document.querySelector(".check-bttn").addEventListener("click", function () {
+  window.location.href = "sucess.html";
 });

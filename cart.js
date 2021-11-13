@@ -1,6 +1,7 @@
 //displaying data
 
 var cartList = JSON.parse(localStorage.getItem("cartItems"));
+console.log(cartList);
 
 if (cartList.length != 0) {
   document.getElementById("sc").innerHTML = `$8.95`;
@@ -66,7 +67,7 @@ function display(cartList) {
     a_img.setAttribute("href", "#");
 
     var img = document.createElement("img");
-    img.setAttribute("src", item.cart_image_url);
+    img.setAttribute("src", item.img_prod);
 
     a_img.append(img);
 

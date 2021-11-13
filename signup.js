@@ -123,7 +123,7 @@ function func() {
         localStorage.setItem("userdata", JSON.stringify(userArr));
         alert("Account is successfully created");
 
-        window.location.href = "project.html";
+        window.location.href = "signin.html";
       }
     } else {
       userArr.push(userCredincials);

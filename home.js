@@ -209,3 +209,12 @@ function recenltyShowSlides(n) {
   }
   slides[recentlySlideIndex - 1].style.display = "block";
 }
+
+var regUsers = JSON.parse(localStorage.getItem("userdata"));
+
+if (regUsers.length == 0) {
+  document.querySelector("#user_name").textContent = "Account";
+} else {
+  var user_name = regUsers[0].firstname;
+  document.querySelector("#user_name").innerHTML = `${user_name}`;
+}

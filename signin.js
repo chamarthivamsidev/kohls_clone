@@ -101,7 +101,7 @@ function funct() {
   }
 }
 document.querySelector(".btn").addEventListener("click", signin);
-var regdUsers = JSON.parse(localStorage.getItem("userdata"));
+var regdUsers = JSON.parse(localStorage.getItem("userdata")) || [];
 function signin() {
   var email = document.querySelector("#email").value;
   var password = document.querySelector("#pass").value;
@@ -110,6 +110,8 @@ function signin() {
   } else {
     if (password == "") {
       alert("Enter your password");
+    } else if (regdUsers.length == 0) {
+      alert("Signup First");
     } else {
       var c = 0;
       var d = 0;
@@ -146,6 +148,7 @@ function signin() {
       }
       if (c == 1) {
         alert("Successfully Logged In");
+        window.location.href = "home.html";
       }
       if (d == 1) {
         alert("Entered Incorrect Email");
