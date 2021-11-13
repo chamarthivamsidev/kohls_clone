@@ -4,9 +4,11 @@ document
 
 function searchResult() {
   searchValue = document.getElementById("search").value;
-  searchValue == ""
-    ? alert("please enter some text in search box")
-    : alert("please provide path to mens page");
+  if (searchValue == "") {
+    alert("please enter some text in search box");
+  } else {
+    window.location.href = "mens_clothing.html";
+  }
 }
 
 //sticky nav bar
