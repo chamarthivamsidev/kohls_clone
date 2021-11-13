@@ -163,6 +163,11 @@ setInterval(function () {
   homePlusSlides(n);
   n++;
 }, 3000);
+
+document.getElementById("home_sale").addEventListener("click", function () {
+  window.location.href = "mens_clothing.html";
+  console.log("hi");
+});
 /* More for you slider_3 script*/
 var moreSlideIndex = 1;
 moreShowSlides(moreSlideIndex);
@@ -210,6 +215,7 @@ function recenltyShowSlides(n) {
   slides[recentlySlideIndex - 1].style.display = "block";
 }
 
+//showing username
 var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
 console.log(regUsers);
 
@@ -219,3 +225,14 @@ if (regUsers.length == 0) {
   var user_name = regUsers[0].firstname;
   document.querySelector("#user_name").innerHTML = `${user_name}`;
 }
+
+//checking cart
+document.getElementById("go_check").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
