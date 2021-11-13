@@ -210,7 +210,8 @@ function recenltyShowSlides(n) {
   slides[recentlySlideIndex - 1].style.display = "block";
 }
 
-var regUsers = JSON.parse(localStorage.getItem("userdata"));
+var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+console.log(regUsers);
 
 if (regUsers.length == 0) {
   document.querySelector("#user_name").textContent = "Account";

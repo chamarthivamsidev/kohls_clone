@@ -83,14 +83,6 @@ document
     window.location.href = "signin.html";
   });
 
-// redirect to signup page and form validation
-
-// document
-//   .getElementById("create_account")
-//   .addEventListener("click", function () {
-//     alert("Please provide signup page path");
-//   });
-
 document.querySelector("#ca").addEventListener("click", func);
 var userArr = JSON.parse(localStorage.getItem("userdata")) || [];
 function func() {
@@ -117,7 +109,7 @@ function func() {
       }
       if (flag == true) {
         alert("This Email is already registered");
-        window.location.href = "project.html";
+        window.location.href = "signin.html";
       } else {
         userArr.push(userCredincials);
         localStorage.setItem("userdata", JSON.stringify(userArr));
@@ -129,7 +121,7 @@ function func() {
       userArr.push(userCredincials);
       localStorage.setItem("userdata", JSON.stringify(userArr));
       alert("Account is successfully created");
-      window.location.href = "project.html";
+      window.location.href = "signin.html";
     }
   } else {
     alert("Filling all the fields are mandatory");
@@ -166,4 +158,15 @@ function validateemail() {
   ) {
     return false;
   }
+}
+
+// showing username
+var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+console.log(regUsers);
+
+if (regUsers.length == 0) {
+  document.querySelector("#user_name").textContent = "Account";
+} else {
+  var user_name = regUsers[0].firstname;
+  document.querySelector("#user_name").innerHTML = `${user_name}`;
 }
