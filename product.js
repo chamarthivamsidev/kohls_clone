@@ -986,7 +986,7 @@ var products = [
          sale:"29.99",
       price: "49.99",
       sellingPrice:"29.99",
-      type: "FILA™ Windshift 15 Men's Running Shoes",
+      type: "FILA™ Windshift 15 Men's Casual Shoes",
       stars: "(702)",
       userRating:"702",
       btn1:"https://media.kohlsimg.com/is/image/kohls/2511789_Gray_Orange_sw?wid=20&hei=20",
