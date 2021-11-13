@@ -79,8 +79,7 @@ document.querySelector("#card").addEventListener("click", function () {
 document
   .querySelector("#sign_in_button")
   .addEventListener("click", function () {
-    // window.location.href = "./signin.html";
-    alert("Please provide signin page path");
+    window.location.href = "signin.html";
   });
 
 // redirect to signup page
@@ -88,7 +87,7 @@ document
 document
   .getElementById("create_account")
   .addEventListener("click", function () {
-    alert("Please provide signup page path");
+    window.location.href = "signup.html";
   });
 
 // level of chill slider

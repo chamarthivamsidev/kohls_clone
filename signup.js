@@ -80,17 +80,16 @@ document.querySelector("#card").addEventListener("click", function () {
 document
   .querySelector("#sign_in_button")
   .addEventListener("click", function () {
-    // window.location.href = "./signin.html";
-    alert("Please provide signin page path");
+    window.location.href = "signin.html";
   });
 
 // redirect to signup page and form validation
 
-document
-  .getElementById("create_account")
-  .addEventListener("click", function () {
-    alert("Please provide signup page path");
-  });
+// document
+//   .getElementById("create_account")
+//   .addEventListener("click", function () {
+//     alert("Please provide signup page path");
+//   });
 
 document.querySelector("#ca").addEventListener("click", func);
 var userArr = JSON.parse(localStorage.getItem("userdata")) || [];

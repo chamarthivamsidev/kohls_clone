@@ -75,20 +75,20 @@ document.querySelector("#card").addEventListener("click", function () {
   window.location.href = "#card";
 });
 
-// redirect to sign in page
-document
-  .querySelector("#sign_in_button")
-  .addEventListener("click", function () {
-    // window.location.href = "./signin.html";
-    alert("Please provide signin page path");
-  });
+// // redirect to sign in page
+// document
+//   .querySelector("#sign_in_button")
+//   .addEventListener("click", function () {
+//     // window.location.href = "./signin.html";
+//     alert("Please provide signin page path");
+//   });
 
 // redirect to signup page
 
 document
   .getElementById("create_account")
   .addEventListener("click", function () {
-    alert("Please provide signup page path");
+    window.location.href = "signup.html";
   });
 document.getElementById("showpsw").addEventListener("click", funct);
 function funct() {
