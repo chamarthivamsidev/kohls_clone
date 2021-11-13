@@ -125,8 +125,43 @@ setInterval(function () {
   var n = 1;
   plusSlides(n);
   n++;
-}, 4000);
+}, 3000);
 
+// Home sale
+var homeSlideIndex = 1;
+homeShowSlides(homeSlideIndex);
+
+function homePlusSlides(n) {
+  homeShowSlides((homeSlideIndex += n));
+}
+
+function currentSlide(n) {
+  homeShowSlides((homeSlideIndex = n));
+}
+
+function homeShowSlides(n) {
+  var slides = document.getElementsByClassName("homeMySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    homeSlideIndex = 1;
+  }
+  if (n < 1) {
+    homeSlideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[homeSlideIndex - 1].style.display = "block";
+  dots[homeSlideIndex - 1].className += " active";
+}
+setInterval(function () {
+  var n = 1;
+  homePlusSlides(n);
+  n++;
+}, 3000);
 /* More for you slider_3 script*/
 var moreSlideIndex = 1;
 moreShowSlides(moreSlideIndex);

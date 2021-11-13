@@ -394,6 +394,138 @@ fieldset {
     justify-content: center;
   }
 }
+#home_sale {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+/* sephora kohlis */
+.main {
+  width: 95%;
+  margin: auto;
+  height: 410px;
+  border: 2px solid black;
+}
+.sephora-holiday-img {
+  width: 100%;
+}
+.holiday-img {
+  width: 100%;
+}
+.main2 {
+  display: flex;
+}
+.left {
+  width: 65%;
+}
+.holiday-main {
+  border-right: 1x solid #000;
+  width: 68%;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  padding-left: 20px;
+}
+.holiday-saving-event {
+  padding-left: 20px;
+  text-decoration: none;
+  font-size: 49px;
+  color: black;
+}
+.beauty-insider {
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.last-div {
+  width: 935px;
+  display: flex;
+}
+.left-text {
+  width: 360px;
+}
+.use-code {
+  margin-left: 20px;
+  color: black;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: none;
+}
+.apply-text {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.shop-now {
+  margin-left: 20px;
+  color: black;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+}
+.right-img {
+  width: 539px;
+  margin-left: 30px;
+  display: flex;
+}
+.offer-img {
+  height: 160px;
+  margin-left: 15px;
+}
+.right {
+  width: 35%;
+  margin-left: 30px;
+  text-align: center;
+  padding-top: 40px;
+  border-left: solid 1px black;
+}
+.right-text {
+  font-size: 30px;
+}
+.right-text2 {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.sign-up-text {
+  line-height: 1.5;
+  font-variant: proportional-width;
+  text-decoration: none;
+  color: black;
+}
+.join-now-text {
+  margin-left: 20px;
+  color: black;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 700;
+}
+/* sephora collection */
+.main-div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+.left-col {
+  width: 32%;
+}
+.left-col img {
+  width: 100%;
+}
+.middle-col {
+  width: 32%;
+}
+.middle-col img {
+  width: 100%;
+}
+.right-col {
+  width: 32%;
+}
+.right-col img {
+  width: 100%;
+}
 /* toy box */
 #toy_box {
   display: flex;
@@ -402,7 +534,7 @@ fieldset {
   justify-content: space-between;
   margin: auto;
   position: relative;
-  margin-top: 25%;
+  margin-top: 16%;
 }
 #toy_box:hover {
   cursor: pointer;
@@ -436,7 +568,7 @@ fieldset {
   position: relative;
   margin: auto;
   height: 235px;
-  margin-top: 2%;
+  margin-top: 3%;
   margin-bottom: 3%;
 }
 #gift_title {
@@ -502,7 +634,7 @@ fieldset {
   justify-content: space-between;
   margin: auto;
   position: relative;
-  margin-top: 20%;
+  margin-top: 5%;
 }
 #adidas_box:hover {
   cursor: pointer;
@@ -561,7 +693,7 @@ fieldset {
 /* level of chill section */
 .chill {
   width: 95%;
-  margin: 8% auto;
+  margin: 3% auto;
   height: 550px;
   display: flex;
   justify-content: space-between;
@@ -714,6 +846,100 @@ fieldset {
     height: 90%;
   }
 }
+/* honoring */
+.main-div {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+.vetranday-img {
+  width: 1400px;
+  height: 600px;
+}
+/* thank you */
+.main-div {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+/* favorite */
+.main-div_fav {
+  width: 90%;
+  margin: auto;
+}
+.main-div1 {
+  width: 100%;
+  text-align: center;
+  font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.main-div2 {
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+}
+.yummy {
+  text-align: center;
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+}
+.text {
+  text-decoration: none;
+}
+
+.image {
+  position: relative;
+  width: 345px;
+}
+.image--img {
+  display: block;
+  width: 100%;
+}
+
+.image--overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  color: black;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  font-family: cursive;
+  font-size: 33px;
+}
+.image--overlay:hover {
+  opacity: 1;
+}
+/* outfit */
+.main-div-fit {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.div3 {
+  display: flex;
+}
+.fit-left-col {
+  margin-left: 25px;
+}
+.outdoor-img {
+  margin-bottom: 25px;
+}
+.work-img {
+  margin-bottom: 25px;
+}
+
 /* More for you slider_3 */
 #more_title {
   font-family: gotham\5r, GothamMedium, Helvetica, Arial, sans-serif;
@@ -1122,7 +1348,7 @@ footer {
   height: 12px;
 }
 #last {
-  height: 75px;
+  height: 90px;
   width: 30px;
   background-color: black;
   position: fixed;
@@ -1134,7 +1360,9 @@ footer {
   z-index: 10000;
   text-align: center;
   padding-top: 3%;
+  transition: width 0.3s;
 }
 #last:hover {
   cursor: pointer;
+  width: 35px;
 }
