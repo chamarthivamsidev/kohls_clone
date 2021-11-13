@@ -67,6 +67,11 @@ body{
         margin-top: 12px;
         font-family: system-ui;
         font-weight: 700;
+       
+        }
+        .back-to-homepage{
+            text-decoration: none;
+            color: black;
         }
    .cart{
        background-color:#d5edef;
