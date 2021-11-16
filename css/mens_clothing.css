@@ -379,7 +379,7 @@ section {
 }
 .holiday a {
   /* background: url(https://media.kohlsimg.com/is/image/kohls/Mens-dp-20211018-header-hero-m?scl=1&fmt=pjpeg); */
-  background: url(./men.images/maiming.png);
+  background: url(../men.images/maiming.png);
   display: block;
   /* width: 100%; */
   /* background-size: cover; */
@@ -579,7 +579,7 @@ a {
 }
 .holiday1 a {
   /* background: url(https://media.kohlsimg.com/is/image/kohls/Mens-dp-20211018-header-hero-m?scl=1&fmt=pjpeg); */
-  background: url(./men.images/festive.png);
+  background: url(../men.images/festive.png);
   display: block;
   width: 100%;
   /* border: 1px solid blue; */
