@@ -332,7 +332,7 @@ function display(product) {
     var addListDiv = document.createElement("div");
     addListDiv.setAttribute("id", "addListDiv");
     var addListImg = document.createElement("img");
-    addListImg.setAttribute("src", "desc Images/addlist.JPG");
+    addListImg.setAttribute("src", "./images/desc_images/addlist.JPG");
     addListDiv.append(addListImg);
 
     addToCart.addEventListener("click", function () {
