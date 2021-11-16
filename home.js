@@ -4,9 +4,11 @@ document
 
 function searchResult() {
   searchValue = document.getElementById("search").value;
-  searchValue == ""
-    ? alert("please enter some text in search box")
-    : alert("please provide path to mens page");
+  if (searchValue == "") {
+    alert("please enter some text in search box");
+  } else {
+    window.location.href = "mens_clothing.html";
+  }
 }
 
 //sticky nav bar
@@ -79,8 +81,7 @@ document.querySelector("#card").addEventListener("click", function () {
 document
   .querySelector("#sign_in_button")
   .addEventListener("click", function () {
-    // window.location.href = "./signin.html";
-    alert("Please provide signin page path");
+    window.location.href = "signin.html";
   });
 
 // redirect to signup page
@@ -88,7 +89,7 @@ document
 document
   .getElementById("create_account")
   .addEventListener("click", function () {
-    alert("Please provide signup page path");
+    window.location.href = "signup.html";
   });
 
 // level of chill slider
@@ -162,6 +163,11 @@ setInterval(function () {
   homePlusSlides(n);
   n++;
 }, 3000);
+
+document.getElementById("home_sale").addEventListener("click", function () {
+  window.location.href = "mens_clothing.html";
+  console.log("hi");
+});
 /* More for you slider_3 script*/
 var moreSlideIndex = 1;
 moreShowSlides(moreSlideIndex);
@@ -208,3 +214,35 @@ function recenltyShowSlides(n) {
   }
   slides[recentlySlideIndex - 1].style.display = "block";
 }
+
+//showing username
+var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+console.log(regUsers);
+
+if (regUsers.length == 0) {
+  document.querySelector("#user_name").textContent = "Account";
+} else {
+  var user_name = regUsers[0].firstname;
+  document.querySelector("#user_name").innerHTML = `${user_name}`;
+}
+
+//redirecting to checkout
+document.getElementById("go_check").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
+//redirecting to cart
+document.getElementById("go_cart").addEventListener("click", function () {
+  var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;
+
+  if (cartItems == null) {
+    window.location.href = "empty.html";
+  } else {
+    window.location.href = "cart.html";
+  }
+});
