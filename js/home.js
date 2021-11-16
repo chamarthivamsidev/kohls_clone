@@ -136,13 +136,13 @@ function homePlusSlides(n) {
   homeShowSlides((homeSlideIndex += n));
 }
 
-function currentSlide(n) {
+function homeCurrentSlide(n) {
   homeShowSlides((homeSlideIndex = n));
 }
 
 function homeShowSlides(n) {
   var slides = document.getElementsByClassName("homeMySlides");
-  var dots = document.getElementsByClassName("dot");
+  var dots = document.getElementsByClassName("home_dot");
   if (n > slides.length) {
     homeSlideIndex = 1;
   }

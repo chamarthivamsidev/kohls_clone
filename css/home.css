@@ -757,6 +757,20 @@ fieldset {
 .dot:hover {
   background-color: black;
 }
+.home_dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.home_dot:hover {
+  background-color: black;
+}
 /* category items */
 #category {
   margin-top: 80px;
@@ -1048,14 +1062,14 @@ fieldset {
   height: 100%;
 }
 #recently_rightarrow {
-  background-image: url("./images/recently_right_arrow.svg");
+  background-image: url("../images/home_img/recently_right_arrow.svg");
   background-size: contain;
   width: 25px;
   height: 25px;
   margin-top: 8%;
 }
 #recently_leftarrow {
-  background-image: url("./images/recently_left_arrow.svg");
+  background-image: url("../images/home_img/recently_left_arrow.svg");
   width: 25px;
   height: 25px;
   background-size: contain;
