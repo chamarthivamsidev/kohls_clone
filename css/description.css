@@ -160,6 +160,11 @@ fieldset {
   height: 72px;
   width: 30%;
 }
+#cart_qty {
+  color: #6f2426;
+  font-size: 22px;
+  font-weight: bold;
+}
 #check_out {
   height: 72px;
   width: 30%;

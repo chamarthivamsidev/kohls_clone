@@ -102,6 +102,7 @@ function funct() {
 }
 document.querySelector(".btn").addEventListener("click", signin);
 var regdUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+console.log("regdUsers:", regdUsers);
 function signin() {
   var email = document.querySelector("#email").value;
   var password = document.querySelector("#pass").value;
@@ -148,6 +149,8 @@ function signin() {
       }
       if (c == 1) {
         alert("Successfully Logged In");
+        var user_name = regdUsers[0].firstname;
+        document.querySelector("#user_name").innerHTML = `${user_name}`;
         window.location.href = "home.html";
       }
       if (d == 1) {
@@ -169,15 +172,15 @@ function funcc() {
 }
 
 // showing username
-var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
-console.log(regUsers);
+// var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+// console.log(regUsers);
 
-if (regUsers.length == 0) {
-  document.querySelector("#user_name").textContent = "Account";
-} else {
-  var user_name = regUsers[0].firstname;
-  document.querySelector("#user_name").innerHTML = `${user_name}`;
-}
+// if (regUsers.length == 0) {
+//   document.querySelector("#user_name").textContent = "Account";
+// } else {
+//   var user_name = regUsers[0].firstname;
+//   document.querySelector("#user_name").innerHTML = `${user_name}`;
+// }
 //redirecting to checkout
 document.getElementById("go_check").addEventListener("click", function () {
   var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;

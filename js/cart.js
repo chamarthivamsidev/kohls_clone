@@ -1,6 +1,6 @@
 //displaying data
 
-var cartList = JSON.parse(localStorage.getItem("cartItems"));
+var cartList = JSON.parse(localStorage.getItem("cartItems")) || [];
 console.log(cartList);
 
 if (cartList.length != 0) {
@@ -291,9 +291,9 @@ function scrollTop() {
 
 //window onload
 window.addEventListener("load", function () {
-  // if (cartList.length == 0) {
-  //   window.location.href = "empty.html";
-  // }
+  if (cartList.length == 0) {
+    window.location.href = "empty.html";
+  }
   var rmp = document.querySelectorAll(".countValue");
 
   for (var i = 0; i < rmp.length; i++) {
