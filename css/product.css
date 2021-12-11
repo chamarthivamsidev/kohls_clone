@@ -610,7 +610,7 @@ width:100%;
       }
        #category {
         text-align: left;
-    
+       
        float: left;
         margin-left: 250px;
         width: 200px;
@@ -619,9 +619,7 @@ width:100%;
        
       }
 
-      #category :hover{
-        cursor: pointer;
-      }
+     
        #Accessories {
          float: left;
         margin-left: 270px;
@@ -632,6 +630,9 @@ width:100%;
         justify-content: space-around;
         text-align: center;
        
+      }
+       #Accessories :hover{
+        cursor: pointer;
       }
 
       .productNav{
@@ -653,8 +654,12 @@ width:100%;
       }
       .sortproducts span {
        color: grey;
-      
+      font-size: 15px;
        font-weight: lighter;
+      }
+      .sortproducts span:hover{
+        text-decoration: none;
+        cursor: pointer;
       }
       .nav {
         display: flex;
