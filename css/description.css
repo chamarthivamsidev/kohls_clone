@@ -484,11 +484,15 @@ fieldset {
 #prodImgLeft img {
   width: 130px;
   height: 130px;
-  margin-top: 10px;
+  margin-top: 12px;
+
+  
 }
-/* #prodImgLeft img:hover{
+#prodImgLeft img:hover{
   border:none;
-} */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+}
 #prodImgRight {
   width: 60%;
   height: 90%;
@@ -497,11 +501,13 @@ fieldset {
 #prodImgRight img {
   width: 100%;
   height: 80%;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  
 }
 
 #prodImgRight img:hover {
   border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 18px;
+  
 }
 /* right product css */
 .right {
@@ -597,7 +603,7 @@ fieldset {
 }
 img:hover {
   cursor: pointer;
-  border: 1px solid black;
+  
 }
 
 #sizeBtnDiv {

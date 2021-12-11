@@ -335,7 +335,7 @@ function display(product) {
     addListImg.setAttribute("src", "./images/desc_images/addlist.JPG");
     addListDiv.append(addListImg);
 
-    addToCart.addEventListener("click", function () {
+    addToCartBtn.addEventListener("click", function () {
       var size = JSON.parse(localStorage.getItem("size"));
       var quantity = JSON.parse(localStorage.getItem("quantity"));
       var color = "Navy Plaid";
