@@ -617,8 +617,10 @@ width:100%;
         color: #454551;
         font-size: 15px;
        
-       
-       
+      }
+
+      #category :hover{
+        cursor: pointer;
       }
        #Accessories {
          float: left;
