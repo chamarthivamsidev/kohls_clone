@@ -94,7 +94,7 @@ document
 //   product info page js
 
 var product = JSON.parse(localStorage.getItem("MensProduct"));
-// var cartItems=JSON.parse(localStorage.getItem("cartItems")) || [];
+var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
 display(product);
 
@@ -342,8 +342,9 @@ function display(product) {
       product[0].size = size;
       product[0].quantity = quantity;
       product[0].color = color;
+      cartItems.push(product[0]);
       localStorage.setItem("MensProduct", JSON.stringify(product));
-      localStorage.setItem("cartItems", JSON.stringify(product));
+      localStorage.setItem("cartItems", JSON.stringify(cartItems));
     });
 
     addToCartBtn.append(addToCart);
