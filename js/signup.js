@@ -161,15 +161,15 @@ function validateemail() {
 }
 
 // showing username
-var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
-console.log(regUsers);
+// var regUsers = JSON.parse(localStorage.getItem("userdata")) || [];
+// console.log(regUsers);
 
-if (regUsers.length == 0) {
-  document.querySelector("#user_name").textContent = "Account";
-} else {
-  var user_name = regUsers[0].firstname;
-  document.querySelector("#user_name").innerHTML = `${user_name}`;
-}
+// if (regUsers.length == 0) {
+//   document.querySelector("#user_name").textContent = "Account";
+// } else {
+//   var user_name = regUsers[0].firstname;
+//   document.querySelector("#user_name").innerHTML = `${user_name}`;
+// }
 //redirecting to checkout
 document.getElementById("go_check").addEventListener("click", function () {
   var cartItems = JSON.parse(localStorage.getItem("cartItems")) || null;

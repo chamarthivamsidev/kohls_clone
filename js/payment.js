@@ -207,9 +207,9 @@ document.querySelector("#addCard").addEventListener("click", function () {
   var cname = document.getElementById("cname").value;
 
   if (cname != "" && cnumber != "" && expiry != "" && cvv != "") {
-    alert("address added sucessfully");
+    alert("Card added sucessfully");
   } else {
-    alert("card added sucessfully");
+    alert("all fields in card details form is mandatory");
   }
 });
 
