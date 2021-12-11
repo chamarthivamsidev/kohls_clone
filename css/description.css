@@ -833,7 +833,7 @@ img:hover {
   height: 438px;
   /* border: 1px solid red; */
   background: url(../images/desc_images/ns6.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 #borderCenter {
@@ -906,7 +906,7 @@ p {
   margin-top: 40px;
   /* border:  1px solid rgb(20, 19, 19); */
   background: url(../images/desc_images/ns7.png);
-  background-size: contain;
+  background-size: cover;
 }
 #nimg001 {
   width: 90%;
