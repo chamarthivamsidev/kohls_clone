@@ -633,7 +633,9 @@ width:100%;
       }
        #Accessories :hover{
         cursor: pointer;
+        text-decoration: underline;
       }
+     
 
       .productNav{
         

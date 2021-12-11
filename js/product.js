@@ -1237,7 +1237,7 @@ function showaccessories() {
     var img = document.createElement("img");
     img.setAttribute("src", item.img_url);
     var p = document.createElement("p");
-    p.textContent = item.type;
+    p.textContent =item.type;
     imgDiv.append(img, p);
     accessories.append(imgDiv);
   });
