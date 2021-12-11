@@ -67,7 +67,7 @@ function display(cartItems) {
     if (item.sale != undefined) {
       image_name.innerHTML = `<p>Regular(${quantity})<br>Sale</p>`;
     } else {
-      image_name.innerHTML = `<p>${item.type}(${quantity})</p>`;
+      image_name.innerHTML = `<p>Regular(${quantity})</p>`;
     }
 
     des_left_div.append(img, image_name);
@@ -80,7 +80,7 @@ function display(cartItems) {
       var rp = Math.floor(Number(item.price) * quantity);
       regularPrice.innerHTML = `$${rp}`;
       var salePrice = document.createElement("div");
-      var sp = Math.floor(Number(item.sale) * quantity);
+      var sp = Math.floor(Number(item.price) * quantity);
       salePrice.innerHTML = `$${sp}`;
 
       des_right_div.append(regularPrice, salePrice);
@@ -100,7 +100,7 @@ function display(cartItems) {
     total_div.setAttribute("id", "total_div");
 
     if (item.sale != undefined) {
-      var fp = Math.floor(Number(item.sale) * quantity);
+      var fp = Math.floor(Number(item.price) * quantity);
     } else {
       var fp = Math.floor(Number(item.price) * quantity);
     }
