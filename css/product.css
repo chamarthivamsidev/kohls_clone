@@ -610,16 +610,16 @@ width:100%;
       }
        #category {
         text-align: left;
-    
+       
        float: left;
         margin-left: 250px;
         width: 200px;
         color: #454551;
         font-size: 15px;
        
-       
-       
       }
+
+     
        #Accessories {
          float: left;
         margin-left: 270px;
@@ -631,6 +631,11 @@ width:100%;
         text-align: center;
        
       }
+       #Accessories :hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+     
 
       .productNav{
         
@@ -651,8 +656,12 @@ width:100%;
       }
       .sortproducts span {
        color: grey;
-      
+      font-size: 15px;
        font-weight: lighter;
+      }
+      .sortproducts span:hover{
+        text-decoration: none;
+        cursor: pointer;
       }
       .nav {
         display: flex;
