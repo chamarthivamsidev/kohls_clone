@@ -139,7 +139,7 @@ function display(product) {
     var poster1 = document.createElement("img");
     poster1.setAttribute("src", item.poster_1);
 
-    poster1.addEventListener("click", function () {
+    poster1.addEventListener("mouseover", function () {
       productMain.setAttribute("src", item.poster_1);
     });
 
@@ -147,13 +147,13 @@ function display(product) {
     poster2.setAttribute("src", item.poster_2);
     poster2.setAttribute("id", "poster2");
 
-    poster2.addEventListener("click", function () {
+    poster2.addEventListener("mouseover", function () {
       productMain.setAttribute("src", item.poster_2);
     });
     var poster3 = document.createElement("img");
     poster3.setAttribute("src", item.poster_3);
 
-    poster3.addEventListener("click", function () {
+    poster3.addEventListener("mouseover", function () {
       productMain.setAttribute("src", item.poster_3);
     });
 
