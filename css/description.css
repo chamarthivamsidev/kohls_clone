@@ -831,9 +831,9 @@ img:hover {
   width: 90%;
   margin: auto;
   height: 438px;
-  /* border: 1px solid red; */
+
   background: url(../images/desc_images/ns6.png);
-  background-size: contain;
+  background-size: cover;
 }
 
 #borderCenter {
