@@ -119,7 +119,7 @@ function display(cartList) {
     var img_del = document.createElement("img");
     img_del.setAttribute(
       "src",
-      "https://www.kohls.com/cnc/media/41.0.0-900/images/dgsImages/trash-icon.png"
+      "https://www.kohls.com/cnc/media/43.0.0-933/images/dgsImages/trash-icon.png"
     );
 
     a_del_icon.append(img_del);
