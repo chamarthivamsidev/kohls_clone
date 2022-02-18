@@ -1,4 +1,6 @@
-# kohls_clone
+
+<div align="center"><img height="60px" width="200px" src="https://www.kohls.com/cnc/media/44.0.0-937/images/new_checkout_ui/kohls-checkout-logo.png"></div>
+
 Kohl's Clone -- Kohl’s is an American online marketplace for Clothing, Kitchen, Toys & Home Decor; More
 
 In this Project we made clone of Kohl's departmental store company web application with our ability and strength in technology stack that we learned so far in the Masai School,we were able to clone the
@@ -11,7 +13,7 @@ frontend of [Kohl's](https://www.kohls.com/).This project is build as a part of 
 - JAVASCRIPT
 - Browser LocalStorage for Frontend
 
-- [Github page](https://chamarthivamsidev.github.io/kohls_clone/home.html)
+- [Deployment Link](https://chamarthivamsidev.github.io/kohls_clone/home.html)
 
   ## Features 
 <!-- --- -->
@@ -44,22 +46,22 @@ frontend of [Kohl's](https://www.kohls.com/).This project is build as a part of 
 ## Screenshots
 A glimpse of our website
 
-**Home Page:**
+<h2>Home Page:</h2>
 <img src="images/readme/landing_page.png">
 
-**Signin Page:**
+<h2>Signin Page:</h2>
 <img src="images/readme/signin.png">
 
-**Signup Page:**
+<h2>Signup Page:</h2>
 <img src="images/readme/signup.png">
 
-**Product Page:**
+<h2>Product Page:</h2>
 <img src="images/readme/product_page.png">
 
-**Product Description Page:**
+<h2>Product Description Page:</h2>
 <img src="images/readme/product_desc_page.png">
 
-**Checkout Page:**
+<h2>Checkout Page:</h2>
 <img src="images/readme/checkout.png">
 
 ## Authors
