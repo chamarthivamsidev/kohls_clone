@@ -43,16 +43,23 @@ frontend of [Kohl's](https://www.kohls.com/).This project is build as a part of 
 
 ## Screenshots
 A glimpse of our website
+
 **Home Page:**
-<img src="">
+<img src="images/readme/landing_page.png">
 
 **Signin Page:**
-<img src="">
+<img src="images/readme/signin.png">
+
+**Signup Page:**
+<img src="images/readme/signup.png">
 
 **Product Page:**
-<img src="">
+<img src="images/readme/product_page.png">
 
 **Product Description Page:**
-<img src="">
+<img src="images/readme/product_desc_page.png">
+
+**Checkout Page:**
+<img src="images/readme/checkout.png">
 
 
