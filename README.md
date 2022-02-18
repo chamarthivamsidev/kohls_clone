@@ -62,4 +62,10 @@ A glimpse of our website
 **Checkout Page:**
 <img src="images/readme/checkout.png">
 
-
+## Authors
+- [@chamarthivamsidev](https://github.com/chamarthivamsidev)
+- [@drajnarayana](https://github.com/drajnarayana)
+- [@alakmodak99](https://github.com/alakmodak99)
+- [@kaliramansumit](https://github.com/kaliramansumit)
+- [@Yashas88](https://github.com/Yashas88)
+- [@Santhosh-user](https://github.com/Santhosh-user)
