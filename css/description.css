@@ -91,6 +91,7 @@ fieldset {
   width: 30%;
   text-align: center;
   position: relative;
+  padding-top: 7px;
 }
 #account:hover {
   cursor: pointer;
@@ -160,10 +161,24 @@ fieldset {
   height: 72px;
   width: 30%;
 }
+.cart_new_div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
 #cart_qty {
-  color: #6f2426;
-  font-size: 22px;
+  color: white;
+  font-size: 15px;
   font-weight: bold;
+  margin: 0;
+  margin-top: 2px;
 }
 #check_out {
   height: 72px;
@@ -190,7 +205,15 @@ fieldset {
 }
 .inner_div {
   margin-top: 10px;
+  /* border: 1px solid red; */
+  position: relative;
+  min-height: 65px;
 }
+#go_check {
+  /* border: 1px solid blue; */
+  padding-top: 6px;
+}
+
 /* department */
 #department {
   /* border-bottom: 1px solid gray; */
@@ -490,13 +513,11 @@ fieldset {
   width: 130px;
   height: 130px;
   margin-top: 12px;
-
-  
 }
-#prodImgLeft img:hover{
-  border:none;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: scale(1.1);
+#prodImgLeft img:hover {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.1);
 }
 #prodImgRight {
   width: 60%;
@@ -506,13 +527,11 @@ fieldset {
 #prodImgRight img {
   width: 100%;
   height: 80%;
-  
 }
 
 #prodImgRight img:hover {
   border: none;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 8px 18px;
-  
 }
 /* right product css */
 .right {
@@ -608,7 +627,6 @@ fieldset {
 }
 img:hover {
   cursor: pointer;
-  
 }
 
 #sizeBtnDiv {
