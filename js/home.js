@@ -246,3 +246,10 @@ document.getElementById("go_cart").addEventListener("click", function () {
     window.location.href = "cart.html";
   }
 });
+
+// Cart Quantity on header
+var cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+let cart_qty = document.getElementById("cart_qty");
+if (cartItems.length !== 0) {
+  cart_qty.innerHTML = `${cartItems.length}`;
+}

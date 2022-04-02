@@ -350,6 +350,7 @@ function display(product) {
       cart_qty.innerHTML = `${cartItems.length}`;
       localStorage.setItem("MensProduct", JSON.stringify(product));
       localStorage.setItem("cartItems", JSON.stringify(cartItems));
+      window.location.href = "cart.html";
     });
 
     addToCartBtn.append(addToCart);

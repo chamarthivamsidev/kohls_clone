@@ -160,6 +160,25 @@ fieldset {
   height: 72px;
   width: 30%;
 }
+.cart_new_div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+#cart_qty {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 2px;
+}
 #check_out {
   height: 72px;
   width: 30%;
@@ -185,6 +204,8 @@ fieldset {
 }
 .inner_div {
   margin-top: 10px;
+  position: relative;
+  min-height: 65px;
 }
 /* department */
 #department {

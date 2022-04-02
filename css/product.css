@@ -160,6 +160,25 @@ fieldset {
   height: 72px;
   width: 30%;
 }
+.cart_new_div {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+}
+#cart_qty {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 2px;
+}
 #check_out {
   height: 72px;
   width: 30%;
@@ -185,6 +204,8 @@ fieldset {
 }
 .inner_div {
   margin-top: 10px;
+  position: relative;
+  min-height: 65px;
 }
 /* department */
 #department {
@@ -196,7 +217,7 @@ fieldset {
 }
 #dept_left {
   display: flex;
-  
+
   width: 35%;
   height: 40px;
   justify-content: space-around;
@@ -330,95 +351,90 @@ fieldset {
   margin-left: 8px;
 }
 /*---------------------------------------- header css end------------------------------------- */
- /* ---------Gift Ideas for Men Navigation---------- */
-   .gifts {
-        text-align: left;
-        font-size: 16px;
-         width:200px;
-         font-weight: normal;
-        color: #222222;
-        margin-left: 24px;
-        font-family: 'Gotham 5r',Helvetica,Arial;
-    font-weight: normal;
-    line-height: 20px;
-    margin-bottom: 20px;
-       
-      }
-      .allproducts {
-        display: flex;
-        gap: 10px;
-        color: #454545;
-         margin-left: 24px;
-        width: 260px;
-        font-family: 'Gotham 4r', Helvetica, Arial, sans-serif;
-    font-size: 12px;
-    margin-bottom: 40px;
-      }
-      
-      .allproducts .line{
-       
-        height:20px;
-        border:1px solid #CCC
-      }
-      .allproducts .all{
-        text-decoration: none;
-      }
-       .allproducts .all:hover{
-        text-decoration: underline;
-      }
-      .allproducts p:hover{
-       cursor: pointer;
-      }
-      .allproducts button{
-        border-radius: 100%;
-        border:none;
-        cursor: pointer;
-       
-      }
-      .allproducts .point:hover{
-        cursor: pointer;
-      }
-       
-      .allproducts button:hover{
-        text-decoration: underline;
-      }
-      /* ---------End Gift Ideas for Men Navigation---------- */
+/* ---------Gift Ideas for Men Navigation---------- */
+.gifts {
+  text-align: left;
+  font-size: 16px;
+  width: 200px;
+  font-weight: normal;
+  color: #222222;
+  margin-left: 24px;
+  font-family: "Gotham 5r", Helvetica, Arial;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.allproducts {
+  display: flex;
+  gap: 10px;
+  color: #454545;
+  margin-left: 24px;
+  width: 260px;
+  font-family: "Gotham 4r", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-bottom: 40px;
+}
 
-      /* ---------Present Elephant animation image ---------- */
-      .savings{
-        display: inline-block;
-        margin-bottom: 80px;
-        margin-left: 200px;
-        
-      }
-      #present{
-        /* border:1px solid red; */
-       width:80%;
-       float: right;
-       margin-top: -35%;
-       margin-right: 30px;
-       
-     margin-bottom: 0;
-      }
- #present img {
-       
-        width: 100%;
-        
-        /* margin-left: 220px; */
-      }
+.allproducts .line {
+  height: 20px;
+  border: 1px solid #ccc;
+}
+.allproducts .all {
+  text-decoration: none;
+}
+.allproducts .all:hover {
+  text-decoration: underline;
+}
+.allproducts p:hover {
+  cursor: pointer;
+}
+.allproducts button {
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+}
+.allproducts .point:hover {
+  cursor: pointer;
+}
+
+.allproducts button:hover {
+  text-decoration: underline;
+}
+/* ---------End Gift Ideas for Men Navigation---------- */
+
+/* ---------Present Elephant animation image ---------- */
+.savings {
+  display: inline-block;
+  margin-bottom: 80px;
+  margin-left: 200px;
+}
+#present {
+  /* border:1px solid red; */
+  width: 80%;
+  float: right;
+  margin-top: -35%;
+  margin-right: 30px;
+
+  margin-bottom: 0;
+}
+#present img {
+  width: 100%;
+
+  /* margin-left: 220px; */
+}
 /* ---------End of Present Elephant animation image ---------- */
 
 /* ---------flex images stocking stuffers and White Elephant-------- */
-      .presentville {
+.presentville {
   position: relative;
-width:80%;
+  width: 80%;
   margin: -70px auto;
-  font-family: 'Gotham 4r',Helvetica,Arial;
+  font-family: "Gotham 4r", Helvetica, Arial;
   font-size: 10px;
   text-align: center;
   float: right;
   display: flex;
-  gap:20px;
+  gap: 20px;
 
   margin-bottom: 10px;
   margin-right: 25px;
@@ -426,829 +442,746 @@ width:80%;
 
 .presentville img {
   vertical-align: middle;
-width:100%;
-
+  width: 100%;
 }
 
 .presentville .content {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
-  background:#fefffe; /* Black background with 0.5 opacity */
+  background: #fefffe; /* Black background with 0.5 opacity */
   color: black;
-   width:49%;
+  width: 49%;
 
   text-align: center;
-  
- 
 }
-.presentville .content{
+.presentville .content {
   opacity: 0.8;
 }
-.content h2{
+.content h2 {
   text-decoration: underline;
 }
-.content h2:hover{
+.content h2:hover {
   text-decoration: none;
 }
-     /* ---------flex images stocking stuffers and White Elephant ending-------- */
+/* ---------flex images stocking stuffers and White Elephant ending-------- */
 
 /* <!-- Banner Gifts images  starting-->  */
-       .bannerBorderDiv {
-        width: 80%;
-        margin: auto;
-        margin-left: 240px;
-        display: flex;
-        background-color: #1d9f77;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        
-      }
-
-      .bannerGiftsImg {
-        width: 30%;
-        margin-top: 50px;
-        margin-bottom: 20px;
-      }
-      .bannerGiftsImg img {
-        width: 100%;
-      }
-      .giftBanner {
-          float: left;
-       margin-left: 240px;
-        width: 80%;
-        height: 30px;
-      }
-      .giftBanner img {
-        width: 100%;
-        height: 100%;
-      }
-*{
-  box-sizing: border-box;
+.bannerBorderDiv {
+  width: 80%;
+  margin: auto;
+  margin-left: 240px;
+  display: flex;
+  background-color: #1d9f77;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-
+.bannerGiftsImg {
+  width: 30%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.bannerGiftsImg img {
+  width: 100%;
+}
+.giftBanner {
+  float: left;
+  margin-left: 240px;
+  width: 80%;
+  height: 30px;
+}
+.giftBanner img {
+  width: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
 
 .bannerGiftsImg {
   position: relative;
   max-width: 800px;
   margin: auto;
-  font-family: 'Gotham 4r',Helvetica,Arial;
+  font-family: "Gotham 4r", Helvetica, Arial;
   font-size: 10px;
   text-align: center;
-  
+
   display: flex;
-  gap:20px;
- 
+  gap: 20px;
 }
 
 .bannerGiftsImg img {
   vertical-align: middle;
-width:100%;
-margin-top: 20px;
-margin-bottom: 20px;
-
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .bannerGiftsImg .imgContent {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
-  background:#fefffe; /* Black background with 0.5 opacity */
+  background: #fefffe; /* Black background with 0.5 opacity */
   color: black;
-   width:320px;
-margin-bottom: 20px;
+  width: 320px;
+  margin-bottom: 20px;
   text-align: center;
- 
 }
-.bannerGiftsImg .imgContent{
+.bannerGiftsImg .imgContent {
   opacity: 0.8;
 }
-.imgContent h2{
+.imgContent h2 {
   text-decoration: underline;
 }
-.imgContent h2:hover{
+.imgContent h2:hover {
   text-decoration: none;
 }
-     /* <!-- Banner Gifts images  ending-->  */
+/* <!-- Banner Gifts images  ending-->  */
 
-      /* <!-- outdoor and foodie Gifts images  starting-->  */
-      .gifts2 img {
-        width: 100%;
-        height: 100%;
-      }
-      .outdoor {
-        margin-left: 30px;
-        border-top: 10px solid #da2128;
-         border-left: 10px solid #da2128; 
-      }
-      .foodie {
-        margin-left: 30px;
-        border-bottom: 10px solid #da2128;
-        border-right: 10px solid #da2128;
-      }
-      .gifts2 {
+/* <!-- outdoor and foodie Gifts images  starting-->  */
+.gifts2 img {
+  width: 100%;
+  height: 100%;
+}
+.outdoor {
+  margin-left: 30px;
+  border-top: 10px solid #da2128;
+  border-left: 10px solid #da2128;
+}
+.foodie {
+  margin-left: 30px;
+  border-bottom: 10px solid #da2128;
+  border-right: 10px solid #da2128;
+}
+.gifts2 {
   position: relative;
   width: 75%;
   margin: 0 auto;
-  font-family: 'Gotham 4r',Helvetica,Arial;
+  font-family: "Gotham 4r", Helvetica, Arial;
   font-size: 10px;
   text-align: center;
- 
+
   display: flex;
-  gap:20px;
+  gap: 20px;
   float: left;
   margin-left: 270px;
   margin-top: 20px;
- 
 }
 
 .gifts2 img {
   vertical-align: middle;
-width:100%;
-
+  width: 100%;
 }
 
 .gifts2 .outdoorContent {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0); /* Fallback color */
-  background:#fefffe; /* Black background with 0.5 opacity */
+  background: #fefffe; /* Black background with 0.5 opacity */
   color: black;
-   width:455px;
-/* margin-bottom: 20px; */
-   height:50px;
+  width: 455px;
+  /* margin-bottom: 20px; */
+  height: 50px;
   text-align: center;
-  
- 
 }
-#foodieContent{
+#foodieContent {
   margin-bottom: 10px;
 }
-.gifts2 .outdoorContent{
+.gifts2 .outdoorContent {
   opacity: 0.7;
 }
-.outdoorContent h2{
+.outdoorContent h2 {
   text-decoration: underline;
 }
-.outdoorContent h2:hover{
+.outdoorContent h2:hover {
   text-decoration: none;
 }
 /* <!-- outdoor and foodie Gifts images  ending-->  */
 
+#left {
+  width: 80%;
+  border-bottom: 0.0625em solid #ddd;
+  float: left;
+  margin-left: 250px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+#category {
+  text-align: left;
 
+  float: left;
+  margin-left: 250px;
+  width: 200px;
+  color: #454551;
+  font-size: 15px;
+}
 
- #left {
-        width: 80%;
-        border-bottom: 0.0625em solid #ddd;
-        float: left;
-        margin-left: 250px;
-        margin-top: 10px;
-        margin-bottom: 15px;
-       
-        
-      }
-       #category {
-        text-align: left;
-       
-       float: left;
-        margin-left: 250px;
-        width: 200px;
-        color: #454551;
-        font-size: 15px;
-       
-      }
+#Accessories {
+  float: left;
+  margin-left: 270px;
+  display: flex;
+  gap: 80px;
+  color: grey;
+  font-weight: 20px;
+  justify-content: space-around;
+  text-align: center;
+}
+#Accessories :hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
-     
-       #Accessories {
-         float: left;
-        margin-left: 270px;
-        display: flex;
-        gap: 80px;
-        color: grey;
-        font-weight: 20px;
-        justify-content: space-around;
-        text-align: center;
-       
-      }
-       #Accessories :hover{
-        cursor: pointer;
-        text-decoration: underline;
-      }
-     
+.productNav {
+  float: left;
+  height: 120px;
+  width: 650px;
 
-      .productNav{
-        
-        float:left;
-        height: 120px;
-        width: 650px;
-        
-        margin-left: 200px;
-        
-      } 
-       .sortproducts {
-        float: left;
-        margin-left: 50px;
-        width:180px;
-        font-weight: bold;
-        color: rgb(63, 61, 61);
-       
-      }
-      .sortproducts span {
-       color: grey;
-      font-size: 15px;
-       font-weight: lighter;
-      }
-      .sortproducts span:hover{
-        text-decoration: none;
-        cursor: pointer;
-      }
-      .nav {
-        display: flex;
-        gap: 30px;
-        float: left;
-        width:500px;
-        margin-left: 50px;
-       
-       
-        font-size: 14px;
-        color:grey;
-      }
-      #sortby {
-        height: 40px;
-        width: 180px;
-        border-radius: 5px;
-        color: grey;
-        
-      }
+  margin-left: 200px;
+}
+.sortproducts {
+  float: left;
+  margin-left: 50px;
+  width: 180px;
+  font-weight: bold;
+  color: rgb(63, 61, 61);
+}
+.sortproducts span {
+  color: grey;
+  font-size: 15px;
+  font-weight: lighter;
+}
+.sortproducts span:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  gap: 30px;
+  float: left;
+  width: 500px;
+  margin-left: 50px;
 
-      #sortby:hover{
-        cursor: pointer; 
-      }
-    #opt:hover{
-      cursor: pointer;
-    }
-      #show {
-        height: 40px;
-        width: 170px;
-        border-radius: 5px;
-          color: grey;
-      }
+  font-size: 14px;
+  color: grey;
+}
+#sortby {
+  height: 40px;
+  width: 180px;
+  border-radius: 5px;
+  color: grey;
+}
 
-      #show:hover{
-        cursor: pointer;
-      }
+#sortby:hover {
+  cursor: pointer;
+}
+#opt:hover {
+  cursor: pointer;
+}
+#show {
+  height: 40px;
+  width: 170px;
+  border-radius: 5px;
+  color: grey;
+}
 
-      /* products page info */
-     #container {
-        display: grid;
-        width: 60%;
-      font-family: 'Gotham 4r', Helvetica, Arial, sans-serif;
-       margin: auto;
-        grid-template-columns: auto auto auto;
-      
-        gap: 30px;
-        
-        
-      }
-        #container h2{
-        color: #BD0F1B;
-        text-align: center;
-        display: flex;
-        width:40%;
-        margin: auto;
-        justify-content: space-between;
-       /* margin:0; */
-       margin-bottom: 0;
-        font-size: 22px;
-        font-family: 'Gotham 7r', Helvetica, Arial, sans-serif;
-        
-      }
-      #salePrice p{
-        margin: 0;
-        margin-top: 10px;
-        vertical-align: bottom;
+#show:hover {
+  cursor: pointer;
+}
 
-      }
-      #salePrice p:nth-child(1){
-       font-size: 15px;
-       margin-top: 15px;
-      }
+/* products page info */
+#container {
+  display: grid;
+  width: 60%;
+  font-family: "Gotham 4r", Helvetica, Arial, sans-serif;
+  margin: auto;
+  grid-template-columns: auto auto auto;
 
-      #container h4{
-        
-        color:grey;
-        text-align: center;
-        font-size: 13px;
-        margin-top: 0;
-        /* margin:0; */
-        
-      }
+  gap: 30px;
+}
+#container h2 {
+  color: #bd0f1b;
+  text-align: center;
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+  /* margin:0; */
+  margin-bottom: 0;
+  font-size: 22px;
+  font-family: "Gotham 7r", Helvetica, Arial, sans-serif;
+}
+#salePrice p {
+  margin: 0;
+  margin-top: 10px;
+  vertical-align: bottom;
+}
+#salePrice p:nth-child(1) {
+  font-size: 15px;
+  margin-top: 15px;
+}
 
-      #container button{
-        border: none;
-        background-color: white;
-        /* color:#585d63; */
-        font-family:'Gotham 4r', Helvetica, Arial, sans-serif;
-        font-size: 15px;
-        color: #444444;
-        justify-content: center;
-        /* margin:0; */
-        
-      }
-      #container button:hover{
-          box-shadow: 0 1px 10px 0 rgb(0 0 0 / 8%);
-    border: solid 0.8px #cccccc;
-      background-color:#f7f7f7;
-      cursor: pointer;
-      }
+#container h4 {
+  color: grey;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 0;
+  /* margin:0; */
+}
 
-    
-    
-      
-      .stylebtn{
-        height: 20px;
-        width: 20px;
-        border-radius: 10px;
-        
-        border: 0;
-     
-        margin-right: 10px;
-        margin-top: 30px;
-      }
-      .stylebtn:hover{
-        cursor: pointer;
-        border: 1px solid black;
-      
-      }
+#container button {
+  border: none;
+  background-color: white;
+  /* color:#585d63; */
+  font-family: "Gotham 4r", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #444444;
+  justify-content: center;
+  /* margin:0; */
+}
+#container button:hover {
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 8%);
+  border: solid 0.8px #cccccc;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
 
-      #colbtn{
-        width:100%;
-       
-        text-align: center;
-      }
-      #ratingDiv{
-        width:100%;
-       
-        /* display: flex;
+.stylebtn {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+
+  border: 0;
+
+  margin-right: 10px;
+  margin-top: 30px;
+}
+.stylebtn:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+#colbtn {
+  width: 100%;
+
+  text-align: center;
+}
+#ratingDiv {
+  width: 100%;
+
+  /* display: flex;
         justify-content: center; */
-        text-align: center;
-        font-size: 12px;
-        margin-top: 15px;
-      }
-     
-      #ratingDiv p{
-        display: inline;
-      }
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
 
-      #ratingDiv p:hover:nth-child(2){
-       text-decoration: underline;
-       cursor: pointer;
-       
-      }
-      #ratingDiv p:nth-child(2){
-       color: grey;
-      }
-      #prodimg:hover{
-      cursor: pointer;
-      }
-      
-     
-   #pagesbtn{
-     width:20%;
-    
-    margin: auto;
+#ratingDiv p {
+  display: inline;
+}
+
+#ratingDiv p:hover:nth-child(2) {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#ratingDiv p:nth-child(2) {
+  color: grey;
+}
+#prodimg:hover {
+  cursor: pointer;
+}
+
+#pagesbtn {
+  width: 20%;
+
+  margin: auto;
   display: flex;
   margin-top: 20px;
   height: 50px;
-  
-   
-   }
+}
 
-   #pagesbtn #first{
-     margin: auto;
-     font-size: 18px;
-     border-radius: 18px;
-    border:1px solid black;
-    background-color: white;
-   
-   }
-   #pagesbtn #first:hover{
-     border:none;
-     cursor: pointer;
-   }
-   #pagesbtn #second{
-     margin: auto;
-     font-size: 18px;
-     border-radius: 18px;
-     border:none;
-     background-color: white;
-   }
-   #pagesbtn #second:hover{
-     border:1px solid grey;
-     cursor: pointer;
-   }
-    #pagesbtn #next{
-     margin: auto;
-     font-size: 18px;
-     border-radius: 25px;
-     border: none;
-     cursor: pointer;
-     
-   }
+#pagesbtn #first {
+  margin: auto;
+  font-size: 18px;
+  border-radius: 18px;
+  border: 1px solid black;
+  background-color: white;
+}
+#pagesbtn #first:hover {
+  border: none;
+  cursor: pointer;
+}
+#pagesbtn #second {
+  margin: auto;
+  font-size: 18px;
+  border-radius: 18px;
+  border: none;
+  background-color: white;
+}
+#pagesbtn #second:hover {
+  border: 1px solid grey;
+  cursor: pointer;
+}
+#pagesbtn #next {
+  margin: auto;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
 
-   #pagesbtn #other{
-      margin: auto;
-     font-size: 20px;
-     border-radius: 25px;
-     border: none;
-    background-color: white;
-     cursor: pointer;
-   }
+#pagesbtn #other {
+  margin: auto;
+  font-size: 20px;
+  border-radius: 25px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
 
-   .inspired p{
-    text-align: center;
-    color: #000;
-    background-color: #fff;
-    font-family: "Gotham 4r",Helvetica,Arial,sans-serif;
-    font-size: 1.625em;
-    letter-spacing: .0769em;
-    padding: 0.384;
-    margin: auto;
-    
-   }
-   /* bottom slider Starts */
- #recently_parent {
-        display: flex;
-        width: 70%;
-      margin:auto;
-        height: 350px;
-        justify-content: space-around;
-        height: 100%;
-        margin-right: 7%;
-        
-      }
-      .recently_child {
-        width: 100%;
-        height: 100%;
-        display: none;
-      }
-      .recently_child:hover {
-        cursor: pointer;
-      }
-      .recently_child img {
-        width: 100%;
-        height: 100%;
-      }
-      #recently_rightarrow {
-        background-image: url("https://cdn.dynamicyield.com/api/8768845/images/1f76bf5d937e8__arrow.png");
-        background-size: contain;
-        width: 25px;
-        height: 25px;
-        margin-top: 8%;
-      }
-      #recently_leftarrow {
-        background-image: url("https://cdn.dynamicyield.com/api/8769401/images/2c565ee7993bd__leftArrow.png");
-        width: 25px;
-        height: 25px;
-        background-size: contain;
-        margin-top: 8%;
-      }
-      #recently_leftarrow,
-      #recently_rightarrow:hover {
-        cursor: pointer;
-      }
-   /* bottom slider Ends */
-
-   .earn {
+.inspired p {
   text-align: center;
-  color:#666;
+  color: #000;
+  background-color: #fff;
+  font-family: "Gotham 4r", Helvetica, Arial, sans-serif;
+  font-size: 1.625em;
+  letter-spacing: 0.0769em;
+  padding: 0.384;
+  margin: auto;
+}
+/* bottom slider Starts */
+#recently_parent {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  height: 350px;
+  justify-content: space-around;
+  height: 100%;
+  margin-right: 7%;
+}
+.recently_child {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.recently_child:hover {
+  cursor: pointer;
+}
+.recently_child img {
+  width: 100%;
+  height: 100%;
+}
+#recently_rightarrow {
+  background-image: url("https://cdn.dynamicyield.com/api/8768845/images/1f76bf5d937e8__arrow.png");
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-top: 8%;
+}
+#recently_leftarrow {
+  background-image: url("https://cdn.dynamicyield.com/api/8769401/images/2c565ee7993bd__leftArrow.png");
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  margin-top: 8%;
+}
+#recently_leftarrow,
+#recently_rightarrow:hover {
+  cursor: pointer;
+}
+/* bottom slider Ends */
+
+.earn {
+  text-align: center;
+  color: #666;
   font-family: "Gotham 5r";
-    font-size: 15px;
+  font-size: 15px;
   display: block;
-    margin-left: 180px;
-    margin-bottom: 30px;
-    
-   }
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
 
-   .popular h2{
-     margin-bottom: 0.8em;
-    padding-bottom: 0.25em;
-    font-weight: 700;
-    font-size: 16px;
-    
-    color: #333;
-    text-transform: uppercase;
-    margin-left: 300px;
-    width:70%;
-    font-family: Gotham\ 7r,Helvetica,Arial,sans-serif;
-    border-bottom: 0.0625em solid #ddd;
-    text-transform: uppercase;
-   }
+.popular h2 {
+  margin-bottom: 0.8em;
+  padding-bottom: 0.25em;
+  font-weight: 700;
+  font-size: 16px;
 
-   .popularSearches {
-     display: flex;
-     width:70%;
-     margin-left: 290px;
-     height:220px;
-     font-family: Gotham\ 7r,Helvetica,Arial,sans-serif;
-     margin-top: 20px;
-     justify-content: space-between;
-     font-weight: 700;
-     font-size: 13px;
-     
-     
-   }
-   .giftIdeas1 ul{
-     
-     list-style: none;
-     
-   }
-   .giftIdeas1 ul li::before{
+  color: #333;
+  text-transform: uppercase;
+  margin-left: 300px;
+  width: 70%;
+  font-family: Gotham\7r, Helvetica, Arial, sans-serif;
+  border-bottom: 0.0625em solid #ddd;
+  text-transform: uppercase;
+}
+
+.popularSearches {
+  display: flex;
+  width: 70%;
+  margin-left: 290px;
+  height: 220px;
+  font-family: Gotham\7r, Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+.giftIdeas1 ul {
+  list-style: none;
+}
+.giftIdeas1 ul li::before {
   content: "\2022";
   color: #666666;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
-
 }
-.giftIdeas1 ul li:hover{
-text-decoration: underline;
-font-family: Helvetica,Arial,sans-serif;
-cursor: pointer;
-color: #000;
-
+.giftIdeas1 ul li:hover {
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  color: #000;
 }
- .giftIdeas2 ul{
-     
-     list-style: none;
-     
-   }
+.giftIdeas2 ul {
+  list-style: none;
+}
 
-.giftIdeas2 ul li::before{
+.giftIdeas2 ul li::before {
   content: "\2022";
   color: #666666;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
-
 }
-.giftIdeas2 ul li:hover{
-text-decoration: underline;
-font-family: Helvetica,Arial,sans-serif;
-cursor: pointer;
-color: #000;
-
+.giftIdeas2 ul li:hover {
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  color: #000;
 }
 
- .giftIdeas3 ul{
-     
-     list-style: none;
-     
-   }
-.giftIdeas3 ul li::before{
+.giftIdeas3 ul {
+  list-style: none;
+}
+.giftIdeas3 ul li::before {
   content: "\2022";
   color: #666666;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
-
 }
-.giftIdeas3 ul li:hover{
-text-decoration: underline;
-font-family: Helvetica,Arial,sans-serif;
-cursor: pointer;
-color: #000;
-
+.giftIdeas3 ul li:hover {
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  color: #000;
 }
-    
- .giftIdeas4 ul{
-     
-     list-style: none;
-     
-   }
-.giftIdeas4 ul li::before{
+
+.giftIdeas4 ul {
+  list-style: none;
+}
+.giftIdeas4 ul li::before {
   content: "\2022";
   color: #666666;
   font-weight: bold;
-  display: inline-block; 
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
-
 }
-.giftIdeas4 ul li:hover{
-text-decoration: underline;
-font-family: Helvetica,Arial,sans-serif;
-cursor: pointer;
-color: #000;
-
+.giftIdeas4 ul li:hover {
+  text-decoration: underline;
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  color: #000;
 }
 
-.mensGifts{
-  width:62%;
+.mensGifts {
+  width: 62%;
   margin-top: 0;
   margin-left: 300px;
 }
-.mensGifts p{
- 
-    font-family: Gotham\ 4r,Helvetica,Arial,sans-serif;
-    line-height: 1.5;
-    color: #666666;
-    text-align:justify;
+.mensGifts p {
+  font-family: Gotham\4r, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #666666;
+  text-align: justify;
   font-size: 14px;
-  
-    
 }
 
-.mensGiftsIdeas{
+.mensGiftsIdeas {
   display: grid;
-  width:70%;
-  grid-template-areas: "r1 c1"
-                      "r2 c2"
-                      "r3 c3";
- 
- 
- margin-left: 280px;
- gap: 20px;
+  width: 70%;
+  grid-template-areas:
+    "r1 c1"
+    "r2 c2"
+    "r3 c3";
+
+  margin-left: 280px;
+  gap: 20px;
 }
 
-#r1 img{
-  
-  height:240px;
-  width:240px;
+#r1 img {
+  height: 240px;
+  width: 240px;
   margin-left: 10px;
   margin-top: 20px;
-  
 }
 
-#r2 img{
-  
-  height:240px;
-  width:240px;
-margin-left: 10px;
-  
-  
+#r2 img {
+  height: 240px;
+  width: 240px;
+  margin-left: 10px;
 }
-#r3 img{
-  
-  height:240px;
-  width:240px;
-margin-left: 10px;
-
+#r3 img {
+  height: 240px;
+  width: 240px;
+  margin-left: 10px;
 }
 
-
-#c1 h3{
-   margin-top: 0.8em;
-    font-family: Gotham\ 7r,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 0.25em;
-    color: #333;
+#c1 h3 {
+  margin-top: 0.8em;
+  font-family: Gotham\7r, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.25em;
+  color: #333;
 }
-#c1 p{
-      font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-family: Gotham\ 4r,Helvetica,Arial,sans-serif;
-    line-height: 1.5;
-    color: #666666;
-    text-align: left;
+#c1 p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: Gotham\4r, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
 }
-#c1 .underLine{
-color:#000;
-font-weight: 700;
+#c1 .underLine {
+  color: #000;
+  font-weight: 700;
 }
-#c1 .underLine:hover{
-color:#000;
-font-weight: 700;
-text-decoration: none;
-}
-
-#c2 h3{
-   margin-top: 0.8em;
-    font-family: Gotham\ 7r,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 0.25em;
-    color: #333;
+#c1 .underLine:hover {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-#c2 p{
-      font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    font-family: Gotham\ 4r,Helvetica,Arial,sans-serif;
-   line-height: 1.5;
-    color: #666666;
-    text-align: left;
-    
+#c2 h3 {
+  margin-top: 0.8em;
+  font-family: Gotham\7r, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.25em;
+  color: #333;
 }
 
-#c2 .underLine{
-color:#000;
-font-weight: 700;
-}
-#c2 .underLine:hover{
-color:#000;
-font-weight: 700;
-text-decoration: none;
-}
-#c3 h3{
-   margin-top: 0.8em;
-    font-family: Gotham\ 7r,Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 0.25em;
-    color: #333;
-}
-#c3 p{
-      font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-family: Gotham\ 4r,Helvetica,Arial,sans-serif;
-    line-height: 1.5;
-    color: #666666;
-    text-align: left;
-    
+#c2 p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-family: Gotham\4r, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
 }
 
-#c3 .underLine{
-color:#000;
-font-weight: 700;
+#c2 .underLine {
+  color: #000;
+  font-weight: 700;
 }
-#c3 .underLine:hover{
-color:#000;
-font-weight: 700;
-text-decoration: none;
+#c2 .underLine:hover {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+}
+#c3 h3 {
+  margin-top: 0.8em;
+  font-family: Gotham\7r, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 0.25em;
+  color: #333;
+}
+#c3 p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: Gotham\4r, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  color: #666666;
+  text-align: left;
+}
+
+#c3 .underLine {
+  color: #000;
+  font-weight: 700;
+}
+#c3 .underLine:hover {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 /* navigation bar css starting */
-  .sidenav {
-   height: 500px; 
-   width: 220px; 
-   position: sticky;
-   z-index: 1; 
+.sidenav {
+  height: 500px;
+  width: 220px;
+  position: sticky;
+  z-index: 1;
   top: 20px;
   left: 0;
-  background-color:rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
   margin-top: 70px;
   overflow-x: hidden;
-  
+
   /* margin-bottom: 1080px; */
   /* margin-top: 300px; */
-  
-  }
+}
 
+.sidenav span {
+  float: right;
+  color: grey;
+  text-decoration: none;
+  font-size: 12px;
+}
 
- .sidenav span{
-   float:right;
-   color: grey;
-   text-decoration: none;
-   font-size: 12px;
- }
-
-
-.sidenav button{
+.sidenav button {
   border-top: 0;
   border-left: 0;
   border-right: 0;
   border-bottom: 0.0625em solid #ddd;
 }
 /* Style the sidenav links and the dropdown button */
-.sidenav a, .dropdown-btn {
+.sidenav a,
+.dropdown-btn {
   padding: 16px 8px 16px 12px;
   text-decoration: none;
   font-size: 12px;
   color: #222222;
   font-weight: bold;
-  font-family: 'Gotham 4r', Helvetica, Arial;
+  font-family: "Gotham 4r", Helvetica, Arial;
   display: block;
   /* border: 1px solid rgb(228, 223, 223); */
   background: none;
-  width:100%;
+  width: 100%;
   text-align: left;
   cursor: pointer;
   outline: none;
-  
 }
-.sidenav a{
-
-padding: 8px 8px 0px 8px;
+.sidenav a {
+  padding: 8px 8px 0px 8px;
 }
-
 
 /* On mouse-over */
 
-
 /* Main content */
 /* .main { */
-  /* margin-left: 200px; Same as the width of the sidenav */
-  /* font-size: 20px; Increased text to enable scrolling */
-  /* padding: 0px 10px;} */
+/* margin-left: 200px; Same as the width of the sidenav */
+/* font-size: 20px; Increased text to enable scrolling */
+/* padding: 0px 10px;} */
 
 /* Add an active class to the active dropdown button */
 .active {
@@ -1258,17 +1191,10 @@ padding: 8px 8px 0px 8px;
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
   display: none;
-  background-color:#FFFFFF;
-  
+  background-color: #ffffff;
 }
 
-
-
 /* navigation bar css ending */
-
-
-
-
 
 /* scroll to top */
 #scroll {
@@ -1499,47 +1425,45 @@ footer {
 }
 #last:hover {
   cursor: pointer;
-  width:35px;
+  width: 35px;
 }
 
 /* top button */
 #myBtn {
   display: none; /* Hidden by default */
-  width:30px;
-  height:44px;
+  width: 30px;
+  height: 44px;
 
   position: fixed; /* Fixed/sticky position */
   bottom: 10px; /* Place the button at the bottom of the page */
-  right:90px;
+  right: 90px;
   /* right: 90px; Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-   background: url('https://www.kohls.com/snb/media/images/backToTop.png') no-repeat;
-   /* background-color: white; */
+  background: url("https://www.kohls.com/snb/media/images/backToTop.png")
+    no-repeat;
+  /* background-color: white; */
   /* background-color: red; Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   /* padding: 15px; Some padding */
-  
+
   font-size: 18px; /* Increase font size */
 }
 
 #myBtn:hover {
-   /* Add a dark-grey background on hover */
-   cursor: pointer;
+  /* Add a dark-grey background on hover */
+  cursor: pointer;
 }
-
 
 .scrollToTop {
-    width: 30px;
-    height: 44px;
-    text-decoration: none;
-    position: fixed;
-    bottom: 10px;
-    margin-left: 1066px;
-    display: none;
-    background: url(/snb/media/images/backToTop.png) no-repeat;
+  width: 30px;
+  height: 44px;
+  text-decoration: none;
+  position: fixed;
+  bottom: 10px;
+  margin-left: 1066px;
+  display: none;
+  background: url(/snb/media/images/backToTop.png) no-repeat;
 }
-
-
